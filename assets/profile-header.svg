@@ -1,28 +1,24 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="320" viewBox="0 0 1100 320" role="img" aria-labelledby="title desc">
-  <title id="title">Karol Antunes Silva | Análise de Dados</title>
-  <desc id="desc">Cabeçalho futurista de portfólio de dados com fluxo de organizar, tratar, analisar e comunicar informações.</desc>
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#080b18"/><stop offset="0.56" stop-color="#111633"/><stop offset="1" stop-color="#071d2b"/></linearGradient>
-    <linearGradient id="accent" x1="0" x2="1"><stop stop-color="#a855f7"/><stop offset="0.52" stop-color="#22d3ee"/><stop offset="1" stop-color="#a3e635"/></linearGradient>
-    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse"><path d="M 36 0 H 0 V 36" fill="none" stroke="#91a4c8" stroke-opacity=".08" stroke-width="1"/></pattern>
-    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="5" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
-  </defs>
-  <rect width="1100" height="320" rx="18" fill="url(#bg)"/>
-  <rect width="1100" height="320" rx="18" fill="url(#grid)"/>
-  <rect width="1100" height="4" rx="2" fill="url(#accent)"/>
-  <path d="M 697 52 H 1022 V 185 H 760 V 152" fill="none" stroke="#253455" stroke-width="1.5"/>
-  <path d="M 748 70 H 973 M 748 104 H 1021 M 748 138 H 944" stroke="#263554" stroke-width="1"/>
-  <path d="M 756 154 L 807 133 L 850 143 L 900 95 L 943 110 L 1007 69" fill="none" stroke="#22d3ee" stroke-opacity=".82" stroke-width="2.5" filter="url(#glow)"/>
-  <g fill="#080b18" stroke="#67e8f9" stroke-width="2"><circle cx="756" cy="154" r="5"/><circle cx="807" cy="133" r="5"/><circle cx="850" cy="143" r="5"/><circle cx="900" cy="95" r="5"/><circle cx="943" cy="110" r="5"/><circle cx="1007" cy="69" r="5"/></g>
-  <text x="52" y="63" fill="#67e8f9" font-family="Segoe UI,Arial,sans-serif" font-size="16" font-weight="700" letter-spacing="4">DATA ANALYTICS / PORTFÓLIO</text>
-  <text x="48" y="125" fill="#f8fafc" font-family="Segoe UI,Arial,sans-serif" font-size="47" font-weight="700">Karol Antunes Silva</text>
-  <text x="52" y="161" fill="#b8c5dc" font-family="Segoe UI,Arial,sans-serif" font-size="20">Estagiária em Análise de Dados | Sistemas de Informação</text>
-  <path d="M 161 244 H 947" stroke="#35425f" stroke-width="1.5"/>
-  <g font-family="Segoe UI,Arial,sans-serif" font-size="15" font-weight="700" text-anchor="middle">
-    <rect x="50" y="220" width="226" height="47" rx="9" fill="#17152c" stroke="#c084fc"/><text x="163" y="249" fill="#e9d5ff">ORGANIZAR</text>
-    <rect x="304" y="220" width="226" height="47" rx="9" fill="#101d33" stroke="#60a5fa"/><text x="417" y="249" fill="#bfdbfe">TRATAR</text>
-    <rect x="558" y="220" width="226" height="47" rx="9" fill="#0b242c" stroke="#22d3ee"/><text x="671" y="249" fill="#a5f3fc">ANALISAR</text>
-    <rect x="812" y="220" width="238" height="47" rx="9" fill="#1a2511" stroke="#a3e635"/><text x="931" y="249" fill="#d9f99d">COMUNICAR</text>
-  </g>
-  <text x="52" y="298" fill="#64748b" font-family="Segoe UI,Arial,sans-serif" font-size="12" letter-spacing="2">SQL · ETL · DATA QUALITY · ANALYTICS</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="280" viewBox="0 0 1100 280" role="img" aria-labelledby="title desc">
+  <title id="title">Karol Antunes Silva | Portfólio em análise de dados</title>
+  <desc id="desc">Cabeçalho editorial em tons de papel, azul-marinho e terracota, com nome, formação e ilustração linear de análise de dados.</desc>
+  <rect width="1100" height="280" fill="#f4f2ed"/>
+  <path d="M 0 0 H 1100" stroke="#163651" stroke-width="5"/>
+  <path d="M 66 48 H 1034" stroke="#d5d4cd" stroke-width="1"/>
+  <text x="66" y="37" fill="#53616b" font-family="Arial,sans-serif" font-size="12" font-weight="600" letter-spacing="2.5">PORTFÓLIO PROFISSIONAL</text>
+  <text x="66" y="116" fill="#163651" font-family="Georgia,serif" font-size="47" font-weight="600">Karol Antunes Silva</text>
+  <text x="68" y="154" fill="#46545e" font-family="Arial,sans-serif" font-size="19">Estagiária em Análise de Dados</text>
+  <path d="M 68 177 H 449" stroke="#c5c7c1" stroke-width="1"/>
+  <text x="68" y="204" fill="#53616b" font-family="Arial,sans-serif" font-size="14" letter-spacing=".3">Sistemas de Informação · 4º semestre</text>
+  <path d="M 681 65 V 224" stroke="#c8cbc7" stroke-width="1"/>
+  <text x="724" y="82" fill="#53616b" font-family="Arial,sans-serif" font-size="11" font-weight="600" letter-spacing="2">DO DADO À DECISÃO</text>
+  <path d="M 726 190 H 1029 M 726 156 H 1029 M 726 122 H 1029" stroke="#deded8" stroke-width="1"/>
+  <path d="M 741 189 L 792 169 L 841 177 L 894 132 L 943 145 L 1014 105" fill="none" stroke="#163651" stroke-width="2.5"/>
+  <g fill="#f4f2ed" stroke="#b65d43" stroke-width="2"><circle cx="741" cy="189" r="4"/><circle cx="792" cy="169" r="4"/><circle cx="841" cy="177" r="4"/><circle cx="894" cy="132" r="4"/><circle cx="943" cy="145" r="4"/><circle cx="1014" cy="105" r="4"/></g>
+  <path d="M 724 217 H 1029" stroke="#163651" stroke-width="1.5"/>
+  <text x="66" y="247" fill="#163651" font-family="Arial,sans-serif" font-size="11" font-weight="600" letter-spacing="1.4">ANÁLISE</text>
+  <circle cx="132" cy="243" r="2" fill="#b65d43"/>
+  <text x="145" y="247" fill="#163651" font-family="Arial,sans-serif" font-size="11" font-weight="600" letter-spacing="1.4">QUALIDADE DE DADOS</text>
+  <circle cx="305" cy="243" r="2" fill="#b65d43"/>
+  <text x="318" y="247" fill="#163651" font-family="Arial,sans-serif" font-size="11" font-weight="600" letter-spacing="1.4">AUTOMAÇÃO</text>
+  <text x="1034" y="247" text-anchor="end" fill="#69747a" font-family="Arial,sans-serif" font-size="11" letter-spacing="1.2">KAROL ANTUNES SILVA</text>
 </svg>
