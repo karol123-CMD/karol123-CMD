@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="240" viewBox="0 0 1100 240" role="img" aria-labelledby="title desc">
+  <title id="title">Karol Antunes Silva | Análise de Dados</title>
+  <desc id="desc">Cabeçalho do portfólio de Karol Antunes Silva, com fundo azul escuro e texto claro.</desc>
+  <rect width="1100" height="240" rx="16" fill="#10283f"/>
+  <rect x="46" y="49" width="5" height="142" rx="2" fill="#4fd1c5"/>
+  <text x="76" y="85" fill="#83ded5" font-family="Segoe UI,Arial,sans-serif" font-size="18" font-weight="600" letter-spacing="3">PORTFÓLIO</text>
+  <text x="72" y="141" fill="#ffffff" font-family="Segoe UI,Arial,sans-serif" font-size="46" font-weight="700">Karol Antunes Silva</text>
+  <text x="76" y="181" fill="#d2dfeb" font-family="Segoe UI,Arial,sans-serif" font-size="23">Análise de Dados | Sistemas de Informação</text>
+</svg>
