@@ -1,9 +1,17 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="240" viewBox="0 0 1100 240" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="300" viewBox="0 0 1100 300" role="img" aria-labelledby="title desc">
   <title id="title">Karol Antunes Silva | Análise de Dados</title>
-  <desc id="desc">Cabeçalho do portfólio de Karol Antunes Silva, com fundo azul escuro e texto claro.</desc>
-  <rect width="1100" height="240" rx="16" fill="#10283f"/>
-  <rect x="46" y="49" width="5" height="142" rx="2" fill="#4fd1c5"/>
-  <text x="76" y="85" fill="#83ded5" font-family="Segoe UI,Arial,sans-serif" font-size="18" font-weight="600" letter-spacing="3">PORTFÓLIO</text>
-  <text x="72" y="141" fill="#ffffff" font-family="Segoe UI,Arial,sans-serif" font-size="46" font-weight="700">Karol Antunes Silva</text>
-  <text x="76" y="181" fill="#d2dfeb" font-family="Segoe UI,Arial,sans-serif" font-size="23">Análise de Dados | Sistemas de Informação</text>
+  <desc id="desc">Portfólio de análise de dados com etapas de organização, tratamento, análise e comunicação.</desc>
+  <defs><linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#252057"/><stop offset="0.55" stop-color="#123b69"/><stop offset="1" stop-color="#096f79"/></linearGradient></defs>
+  <rect width="1100" height="300" rx="18" fill="url(#bg)"/>
+  <rect x="0" y="0" width="275" height="5" fill="#a78bfa"/><rect x="275" y="0" width="275" height="5" fill="#60a5fa"/><rect x="550" y="0" width="275" height="5" fill="#2dd4bf"/><rect x="825" y="0" width="275" height="5" fill="#fbbf24"/>
+  <text x="50" y="59" fill="#b8d9ff" font-family="Segoe UI,Arial,sans-serif" font-size="17" font-weight="600" letter-spacing="3">DATA ANALYTICS</text>
+  <text x="47" y="120" fill="#ffffff" font-family="Segoe UI,Arial,sans-serif" font-size="49" font-weight="700">Karol Antunes Silva</text>
+  <text x="50" y="158" fill="#e1eafa" font-family="Segoe UI,Arial,sans-serif" font-size="21">Estagiária em Análise de Dados | Sistemas de Informação</text>
+  <path d="M 175 231 H 925" stroke="#7ba3bc" stroke-width="2"/>
+  <g font-family="Segoe UI,Arial,sans-serif" font-size="17" font-weight="600" text-anchor="middle">
+    <rect x="50" y="207" width="224" height="47" rx="10" fill="#ede9fe"/><text x="162" y="237" fill="#5b21b6">ORGANIZAR</text>
+    <rect x="306" y="207" width="224" height="47" rx="10" fill="#dbeafe"/><text x="418" y="237" fill="#1e40af">TRATAR</text>
+    <rect x="562" y="207" width="224" height="47" rx="10" fill="#ccfbf1"/><text x="674" y="237" fill="#115e59">ANALISAR</text>
+    <rect x="818" y="207" width="232" height="47" rx="10" fill="#fef3c7"/><text x="934" y="237" fill="#92400e">COMUNICAR</text>
+  </g>
 </svg>
