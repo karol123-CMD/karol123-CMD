@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="540" height="88" viewBox="0 0 540 88" role="img" aria-labelledby="title">
 <title id="title">Google Data Analytics, formação em andamento</title>
-<rect x="1" y="1" width="538" height="86" rx="12" fill="#eff6ff" stroke="#bfdbfe"/>
-<path d="M 18 24 V 64" stroke="#4285f4" stroke-width="5"/>
-<text x="35" y="36" font-family="Segoe UI,Arial,sans-serif" font-size="21" font-weight="700" fill="#17365d">Google Data Analytics</text>
-<text x="35" y="63" font-family="Segoe UI,Arial,sans-serif" font-size="16" fill="#415a77">Certificado profissional | Em andamento</text>
+<rect x="1" y="1" width="538" height="86" rx="12" fill="#0d1425" stroke="#22d3ee" stroke-opacity=".65"/>
+<path d="M 18 21 V 67" stroke="#a855f7" stroke-width="4"/><path d="M 27 21 V 67" stroke="#22d3ee" stroke-width="2"/>
+<text x="43" y="36" font-family="Segoe UI,Arial,sans-serif" font-size="21" font-weight="700" fill="#e0f2fe">Google Data Analytics</text>
+<text x="43" y="63" font-family="Segoe UI,Arial,sans-serif" font-size="16" fill="#a5b4cc">Certificado profissional | Em andamento</text>
 </svg>
