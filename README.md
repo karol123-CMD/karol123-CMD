@@ -2,9 +2,7 @@
   <img src="assets/profile-header.svg" alt="Karol Antunes Silva | Análise de Dados" width="100%">
 </p>
 
-Estagiária em **Análise de Dados** e estudante de **Bacharelado em Sistemas de Informação, no 4º semestre**.
-
-Meu foco está em organizar, tratar e analisar dados, construir indicadores e automatizar processos. Neste perfil, reúno projetos de formação e aplicações práticas do meu aprendizado.
+Neste perfil, reúno projetos de análise, tratamento e automação de dados, além das práticas que venho desenvolvendo.
 
 [LinkedIn](https://www.linkedin.com/in/karol-antunes-silva-2b9236390/) | [Explorar repositórios](https://github.com/karol123-CMD?tab=repositories)
 
@@ -12,7 +10,7 @@ Meu foco está em organizar, tratar e analisar dados, construir indicadores e au
 
 <img src="assets/google-learning.svg" alt="Google Data Analytics: certificado profissional em andamento" width="540">
 
-Estou cursando o **Certificado Profissional de Análise de Dados do Google (Google Data Analytics)**, além do Bacharelado em Sistemas de Informação. A formação está em andamento.
+Estou cursando o **Certificado Profissional de Análise de Dados do Google (Google Data Analytics)**. A formação está em andamento.
 
 ## Ferramentas
 
@@ -33,17 +31,11 @@ SQL, Excel e Power Query sustentam os projetos de análise e tratamento de dados
 
 **Em estudo e aprofundamento:** Python, Power BI, pipelines de dados, Analytics Engineering e Data Engineering.
 
-## Skills e aplicações
+## Skills em prática
 
-| Competência | Aplicação no portfólio |
-| --- | --- |
-| **SQL e modelagem relacional** | Tabelas, chaves, relacionamentos, JOINs e agregações no Distribuidora Alpha e TaskFlow. |
-| **ETL e limpeza de dados** | Extração, transformação, tratamento de nulos e variáveis derivadas no Credit Risk. |
-| **Data Quality** | Documentação de regras de tratamento e preservação de informações para rastreabilidade. |
-| **Análise exploratória de dados (EDA)** | Segmentação, comparações e interpretação de indicadores na base de crédito. |
-| **Dashboards e KPIs** | Indicadores e visualizações em Excel e Google Sheets nos projetos analíticos. |
-| **Automação e integração de dados** | Comunicação entre aplicação Node.js e workflow n8n no AI Commerce Readiness. |
-| **Comunicação de resultados** | READMEs, documentação e interpretação de resultados com suas limitações. |
+- **Dados:** SQL, modelagem relacional, ETL, Power Query e qualidade de dados.
+- **Análise:** EDA, segmentação, indicadores e comunicação de resultados.
+- **Automação:** n8n, Node.js e integração de serviços.
 
 ## Projetos em destaque
 
