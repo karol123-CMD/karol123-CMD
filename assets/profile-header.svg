@@ -11,10 +11,13 @@
   <text x="68" y="204" fill="#53616b" font-family="Arial,sans-serif" font-size="14" letter-spacing=".3">Sistemas de Informação · 4º semestre</text>
   <path d="M 681 65 V 224" stroke="#c8cbc7" stroke-width="1"/>
   <text x="724" y="82" fill="#53616b" font-family="Arial,sans-serif" font-size="11" font-weight="600" letter-spacing="2">DO DADO À DECISÃO</text>
-  <path d="M 726 190 H 1029 M 726 156 H 1029 M 726 122 H 1029" stroke="#deded8" stroke-width="1"/>
-  <path d="M 741 189 L 792 169 L 841 177 L 894 132 L 943 145 L 1014 105" fill="none" stroke="#163651" stroke-width="2.5"/>
-  <g fill="#f4f2ed" stroke="#b65d43" stroke-width="2"><circle cx="741" cy="189" r="4"/><circle cx="792" cy="169" r="4"/><circle cx="841" cy="177" r="4"/><circle cx="894" cy="132" r="4"/><circle cx="943" cy="145" r="4"/><circle cx="1014" cy="105" r="4"/></g>
+  <path d="M 746 111 H 824 L 859 151 M 746 151 H 852 M 746 191 H 824 L 859 157 M 873 151 L 908 111 H 1007 M 880 154 H 1007 M 873 157 L 908 191 H 1007" fill="none" stroke="#163651" stroke-width="1.7"/>
+  <g fill="#f4f2ed" stroke="#163651" stroke-width="1.7"><rect x="741" y="106" width="10" height="10"/><rect x="741" y="146" width="10" height="10"/><rect x="741" y="186" width="10" height="10"/><rect x="1002" y="106" width="10" height="10"/><rect x="1002" y="146" width="10" height="10"/><rect x="1002" y="186" width="10" height="10"/></g>
+  <path d="M 866 139 L 880 153 L 866 167 L 852 153 Z" fill="#b65d43"/>
   <path d="M 724 217 H 1029" stroke="#163651" stroke-width="1.5"/>
+  <text x="746" y="211" fill="#53616b" font-family="Arial,sans-serif" font-size="9" font-weight="600" letter-spacing="1.1">DADOS</text>
+  <text x="866" y="211" text-anchor="middle" fill="#53616b" font-family="Arial,sans-serif" font-size="9" font-weight="600" letter-spacing="1.1">ANÁLISE</text>
+  <text x="1007" y="211" text-anchor="end" fill="#53616b" font-family="Arial,sans-serif" font-size="9" font-weight="600" letter-spacing="1.1">DECISÃO</text>
   <text x="66" y="247" fill="#163651" font-family="Arial,sans-serif" font-size="11" font-weight="600" letter-spacing="1.4">ANÁLISE</text>
   <circle cx="132" cy="243" r="2" fill="#b65d43"/>
   <text x="145" y="247" fill="#163651" font-family="Arial,sans-serif" font-size="11" font-weight="600" letter-spacing="1.4">QUALIDADE DE DADOS</text>
