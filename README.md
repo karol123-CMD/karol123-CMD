@@ -1,4 +1,4 @@
-<img src="assets/profile-header.svg" alt="Karol Antunes Silva — Data Analytics e Business Intelligence. SQL, Power BI, Power Query e Excel. Dados estruturados, indicadores confiáveis e decisões mais claras." width="1200">
+<img src="assets/profile-header-pixel.gif" alt="Paisagem monocromática animada em pixel art, representando um fluxo de dados que percorre um caminho através de um cenário noturno." width="100%">
 
 ## Sobre mim
 
