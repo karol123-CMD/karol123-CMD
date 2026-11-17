@@ -1,51 +1,111 @@
-<p align="center">
-  <img src="assets/profile-header.svg" alt="Karol Antunes Silva | Análise de Dados" width="100%">
-</p>
+<img src="assets/profile-header.svg" alt="Karol Antunes Silva — Data Analytics e Business Intelligence. SQL, Power BI, Power Query e Excel. Dados estruturados, indicadores confiáveis e decisões mais claras." width="1200">
 
-Neste perfil, reúno projetos de análise, tratamento e automação de dados, além das práticas que venho desenvolvendo.
+## Sobre mim
 
-[LinkedIn](https://www.linkedin.com/in/karol-antunes-silva-2b9236390/) | [Explorar repositórios](https://github.com/karol123-CMD?tab=repositories)
+Estudante do quarto semestre do Bacharelado em Sistemas de Informação na UNEX e estagiária em Análise de Dados na Expertizze Sucesso do Cliente.
 
-## Formação em andamento
+Atuo na preparação, transformação e análise de dados, desenvolvendo fluxos de atualização, dashboards e indicadores para apoiar demandas operacionais e de negócio. Em meus projetos, aplico SQL, Power BI, DAX, Power Query, Excel e modelagem de dados em análises comerciais, logísticas e operacionais.
 
-<img src="assets/google-learning.svg" alt="Google Data Analytics: certificado profissional em andamento" width="540">
+Busco consolidar minha carreira como Analista de Dados, combinando capacidade analítica, organização técnica e comunicação clara dos resultados.
 
-Estou cursando o **Certificado Profissional de Análise de Dados do Google (Google Data Analytics)**. A formação está em andamento.
+## Links
 
-## Ferramentas
+[LinkedIn](https://www.linkedin.com/in/karol-antunes-silva-2b9236390/) · [Explorar repositórios](https://github.com/karol123-CMD?tab=repositories)
 
-**Aplicadas nos projetos publicados**
+## Stack principal
 
-<p>
-  <img src="assets/tool-sql.svg" alt="SQL" width="140">
-  <img src="assets/tool-excel.svg" alt="Excel" width="140">
-  <img src="assets/tool-power-query.svg" alt="Power Query" width="140">
-  <img src="assets/tool-google-sheets.svg" alt="Google Sheets" width="140">
-  <img src="assets/tool-supabase.svg" alt="Supabase" width="140">
-  <img src="assets/tool-n8n.svg" alt="n8n" width="140">
-  <img src="assets/tool-nodejs.svg" alt="Node.js" width="140">
-  <img src="assets/tool-git.svg" alt="Git" width="140">
-</p>
+<img src="assets/stack-core.svg" alt="Stack principal: SQL, Power BI, Power Query, Excel, DAX e Modelagem de Dados." width="640">
 
-SQL, Excel e Power Query sustentam os projetos de análise e tratamento de dados. Google Sheets e Supabase aparecem no TaskFlow; n8n e Node.js, no fluxo de automação do AI Commerce Readiness. Git é utilizado no versionamento.
+**Análise e BI:** SQL · Power BI · Power Query · Excel · DAX · Modelagem de Dados
 
-**Em estudo e aprofundamento:** Python, Power BI, pipelines de dados, Analytics Engineering e Data Engineering.
+**Diferenciais em integração e automação**
 
-## Skills em prática
+<img src="assets/stack-secondary.svg" alt="Diferenciais: SQL Server, Git, Supabase, n8n, Node.js e APIs." width="640">
 
-- **Dados:** SQL, modelagem relacional, ETL, Power Query e qualidade de dados.
-- **Análise:** EDA, segmentação, indicadores e comunicação de resultados.
-- **Automação:** n8n, Node.js e integração de serviços.
+SQL Server · Git · Supabase · n8n · Node.js · APIs
+
+## Experiência profissional
+
+### Estagiária em Análise de Dados — Expertizze Sucesso do Cliente
+
+Atuo na organização e análise de dados utilizados em pesquisas de satisfação e demandas de desempenho e marketing.
+
+- Estruturação do fluxo de preparação e atualização dos dados da Pesquisa de Satisfação TSI.
+- Tratamento, padronização e consolidação de dados com Power Query.
+- Desenvolvimento de dashboard para acompanhamento de desempenho.
+- Análise de indicadores de satisfação e resultados.
+- Análises relacionadas a ações de brindes e marketing.
+- Documentação e comunicação dos resultados analíticos.
+
+`Fontes → Power Query → Tratamento → Indicadores → Dashboard`
 
 ## Projetos em destaque
 
-| Projeto | Foco | Tecnologias |
-| --- | --- | --- |
-| [Credit Risk Analytics](https://github.com/karol123-CMD/credit-risk-etl-pipeline) | Tratamento de dados e análise exploratória de risco de crédito. | Excel, Power Query |
-| [TaskFlow Analytics](https://github.com/karol123-CMD/TaskFlow-analytics-gestao-tarefas) | Organização de tarefas e análise de SLA e produtividade. | SQL, Google Sheets, Supabase |
-| [Distribuidora Alpha](https://github.com/karol123-CMD/projeto-sql-distribuidora-alpha) | Modelagem relacional e consultas de vendas em uma base fictícia. | SQL, SQLite |
-| [AI Commerce Readiness](https://github.com/karol123-CMD/ai-commerce-readiness-mvp) | Análise de qualidade de anúncios e integração de um fluxo automatizado. | n8n, Node.js, JavaScript |
+### [AdventureWorks — Vendas, Rentabilidade e Concentração](https://github.com/karol123-CMD/adventureworks-sales-analysis)
 
-## Próximos passos de aprendizagem
+<a href="https://github.com/karol123-CMD/adventureworks-sales-analysis"><img src="assets/project-adventureworks.svg" alt="AdventureWorks: análise de vendas, rentabilidade e concentração; dashboard com cinco páginas e 4.782 comparações documentadas entre SQL e DAX." width="960"></a>
 
-Concluir a formação do Google, aprofundar Python e Power BI e evoluir na construção de processos de dados reproduzíveis. Meu foco atual é consolidar a atuação em Data Analytics enquanto desenvolvo fundamentos para Analytics Engineering e Data Engineering.
+Projeto ponta a ponta de Business Intelligence para análise de vendas, clientes, produtos, rentabilidade e territórios.
+
+A solução utiliza SQL Server, views analíticas, Power Query, modelo dimensional, DAX e Power BI. O dashboard possui cinco páginas e apresenta receita, pedidos, ticket médio, margem bruta estimada, concentração, Pareto, crescimento e extremos estatísticos. A validação documenta **4.782 comparações entre SQL e DAX** no conjunto executado.
+
+**Stack:** SQL Server · T-SQL · Power Query · Power BI · DAX · Modelagem Dimensional
+
+### [Olist — Análise Operacional de Pedidos e Entregas](https://github.com/karol123-CMD/olist_operational_analysis)
+
+<a href="https://github.com/karol123-CMD/olist_operational_analysis"><img src="assets/project-olist.svg" alt="Olist: análise operacional de 99.441 pedidos, com foco em entregas, SLA, frete e avaliações." width="960"></a>
+
+Análise exploratória de **99.441 pedidos** do Brazilian E-Commerce Public Dataset, com foco em entregas, cumprimento de SLA, frete, distribuição geográfica e avaliações de clientes.
+
+O projeto consolida diferentes fontes com Power Query e apresenta os resultados em dashboard e relatório executivo.
+
+**Stack:** Excel · Power Query · ETL · KPIs · Análise Descritiva
+
+### [Credit Risk Analytics — ETL e Qualidade de Dados](https://github.com/karol123-CMD/credit-risk-etl-pipeline)
+
+<a href="https://github.com/karol123-CMD/credit-risk-etl-pipeline"><img src="assets/project-credit-risk.svg" alt="Credit Risk Analytics: ETL e qualidade de dados sobre aproximadamente 150 mil registros, com segmentação descritiva." width="960"></a>
+
+Projeto de ETL e análise exploratória do dataset Give Me Some Credit, com **150 mil registros na origem** e 149.999 após o filtro de idade inválida.
+
+O trabalho documenta limpeza, tipagem, tratamento de valores ausentes, criação de variáveis e segmentação descritiva. Os resultados não são apresentados como modelo preditivo ou ferramenta de decisão de crédito.
+
+**Stack:** Excel · Power Query · Linguagem M · ETL · Qualidade de Dados
+
+### [TaskFlow Analytics — SLA e Produtividade](https://github.com/karol123-CMD/TaskFlow-analytics-gestao-tarefas)
+
+<a href="https://github.com/karol123-CMD/TaskFlow-analytics-gestao-tarefas"><img src="assets/project-taskflow.svg" alt="TaskFlow Analytics: gestão de tarefas, produtividade e SLA com modelagem relacional e indicadores operacionais." width="960"></a>
+
+Projeto de análise operacional para acompanhar tarefas, prioridades, prazos, produtividade e cumprimento de SLA.
+
+A solução combina planilhas, transferência por CSV, banco relacional no Supabase e consultas SQL para produzir indicadores por status, equipe, colaborador, prioridade e período.
+
+**Stack:** SQL · PLpgSQL · Supabase · Google Sheets · Excel
+
+## Projetos complementares
+
+### [Distribuidora Alpha](https://github.com/karol123-CMD/projeto-sql-distribuidora-alpha)
+
+Banco de dados relacional para uma distribuidora fictícia, com dez tabelas, doze relacionamentos e 38 consultas sobre faturamento, clientes, vendedores, produtos e categorias.  
+**Stack:** SQL · SQLite · Modelagem Relacional
+
+### [AI Commerce Readiness](https://github.com/karol123-CMD/ai-commerce-readiness-mvp)
+
+Aplicação que integra interface web, servidor Node.js e workflow n8n para analisar a qualidade e a completude de anúncios de produtos.  
+**Stack:** n8n · Node.js · JavaScript · APIs · Validação de Dados
+
+## Formação, certificação e liderança
+
+**Bacharelado em Sistemas de Informação — UNEX**  
+Quarto semestre
+
+**Google Data Analytics Professional Certificate — Google/Coursera**  
+Concluído em outubro de 2026 · Programa composto por nove cursos
+
+**Embaixadores Estudantis do Google 2026**  
+Participação em atividades relacionadas à aplicação de inteligência artificial e ao desenvolvimento de competências de liderança e colaboração.
+
+## Em desenvolvimento
+
+- **Python para análise de dados:** fundamentos e laboratórios realizados durante o Google Data Analytics Professional Certificate.
+- **Bancos de dados não relacionais:** modelagem aplicada a um projeto acadêmico privado.
+- **Aplicação CRUD:** plataforma de avaliações em desenvolvimento acadêmico.
