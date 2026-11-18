@@ -21,15 +21,7 @@ Busco consolidar minha carreira como Analista de Dados, combinando capacidade an
 
 ## Stack principal
 
-<img src="assets/stack-core.svg" alt="Stack principal: SQL, Power BI, Power Query, Excel, DAX e Modelagem de Dados." width="640">
-
-**Análise e BI:** SQL · Power BI · Power Query · Excel · DAX · Modelagem de Dados
-
-**Diferenciais em integração e automação**
-
-<img src="assets/stack-secondary.svg" alt="Diferenciais: SQL Server, Git, Supabase, n8n, Node.js e APIs." width="640">
-
-SQL Server · Git · Supabase · n8n · Node.js · APIs
+<img src="assets/stack-workflow.svg" alt="Workflow da stack: SQL e Excel seguem para Power Query, Modelagem de Dados, DAX e Power BI. APIs, n8n, Node.js e Supabase compõem o fluxo de integração, com SQL Server e Git como recursos de suporte." width="100%">
 
 ## Experiência profissional
 
