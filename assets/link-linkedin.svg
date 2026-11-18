@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="104" viewBox="0 0 560 104" role="img" aria-labelledby="title desc">
+  <title id="title">LinkedIn</title>
+  <desc id="desc">Acessar o perfil profissional de Karol Antunes Silva no LinkedIn.</desc>
+  <rect x="1" y="1" width="558" height="102" rx="14" fill="#0d1117" stroke="#59616c" stroke-width="2"/>
+  <g transform="translate(30 25)" fill="none" stroke="#f0f3f6" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="0" y="0" width="54" height="54" rx="9"/>
+    <circle cx="15" cy="15" r="2.5" fill="#f0f3f6" stroke="none"/>
+    <path d="M13 24v18M25 42V24M25 31c3-6 14-7 14 3v8M39 42v-8"/>
+  </g>
+  <text x="110" y="45" fill="#f0f3f6" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="25" font-weight="650">LinkedIn</text>
+  <text x="110" y="73" fill="#a8afb9" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="17">Perfil profissional</text>
+</svg>
+

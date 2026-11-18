@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="104" viewBox="0 0 560 104" role="img" aria-labelledby="title desc">
+  <title id="title">Projetos em destaque</title>
+  <desc id="desc">Ir para os principais projetos de análise de dados de Karol Antunes Silva.</desc>
+  <rect x="1" y="1" width="558" height="102" rx="14" fill="#0d1117" stroke="#59616c" stroke-width="2"/>
+  <g transform="translate(30 25)" fill="none" stroke="#f0f3f6" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="0" y="0" width="54" height="54" rx="9"/>
+    <rect x="11" y="30" width="8" height="13" rx="1"/>
+    <rect x="24" y="21" width="8" height="22" rx="1"/>
+    <rect x="37" y="11" width="8" height="32" rx="1"/>
+  </g>
+  <text x="110" y="45" fill="#f0f3f6" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="25" font-weight="650">Projetos em destaque</text>
+  <text x="110" y="73" fill="#a8afb9" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="17">Ver principais análises</text>
+</svg>
+
