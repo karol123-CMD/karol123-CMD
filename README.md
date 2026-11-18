@@ -25,11 +25,11 @@ Busco consolidar minha carreira como Analista de Dados, combinando capacidade an
 
 ## Experiência profissional
 
-<img align="right" src="assets/experience-line-chart.gif" alt="Gráfico de linha monocromático animado, usado como elemento visual decorativo na seção de experiência profissional." width="320">
-
 ### Estagiária em Análise de Dados — Expertizze Sucesso do Cliente
 
 Atuo na organização e análise de dados utilizados em pesquisas de satisfação e demandas de desempenho e marketing.
+
+<img align="right" src="assets/experience-line-chart.gif" alt="Gráfico de linha monocromático animado, usado como elemento visual decorativo na seção de experiência profissional." width="320">
 
 - Estruturação do fluxo de preparação e atualização dos dados da Pesquisa de Satisfação TSI.
 - Tratamento, padronização e consolidação de dados com Power Query.
