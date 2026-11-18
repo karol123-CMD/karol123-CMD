@@ -1,4 +1,4 @@
-<img src="assets/profile-header-pixel.gif" alt="Paisagem monocromática animada em pixel art, representando um fluxo de dados que percorre um caminho através de um cenário noturno." width="100%">
+<img src="assets/profile-header-animated.gif" alt="Globo de dados monocromático animado, cercado por gráficos de linha, dispersão, barras, rede e série temporal." width="100%">
 
 ## Sobre mim
 
