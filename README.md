@@ -14,7 +14,10 @@ Busco consolidar minha carreira como Analista de Dados, combinando capacidade an
 
 ## Links
 
-[LinkedIn](https://www.linkedin.com/in/karol-antunes-silva-2b9236390/) · [Explorar repositórios](https://github.com/karol123-CMD?tab=repositories)
+<p>
+  <a href="https://www.linkedin.com/in/karol-antunes-silva-2b9236390/"><img src="assets/link-linkedin.svg" alt="LinkedIn — acessar perfil profissional" width="49%"></a>
+  <a href="#projetos-em-destaque"><img src="assets/link-projects.svg" alt="Projetos em destaque — ver principais análises" width="49%"></a>
+</p>
 
 ## Stack principal
 
