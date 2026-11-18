@@ -89,7 +89,7 @@ A solução combina planilhas, transferência por CSV, banco relacional no Supab
 
 ## Formação, certificação e liderança
 
-<img align="right" src="assets/formation-education.gif" alt="Capelo universitário pontilhado e animado." width="260">
+<img align="right" src="assets/formation-education.gif" alt="Capelo universitário pontilhado e animado." width="225">
 
 <sub><strong>F O R M A Ç Ã O</strong></sub>
 
@@ -99,9 +99,9 @@ Quarto semestre
 
 <br clear="right">
 
----
+<hr align="left" width="92%" size="1">
 
-<img align="right" src="assets/formation-certification.gif" alt="Certificado e gráfico analítico pontilhados e animados." width="260">
+<img align="right" src="assets/formation-certification.gif" alt="Certificado e gráfico analítico pontilhados e animados." width="225">
 
 <sub><strong>C E R T I F I C A Ç Ã O</strong></sub>
 
@@ -111,9 +111,9 @@ Google / Coursera · Concluído em outubro de 2026 · 9 cursos
 
 <br clear="right">
 
----
+<hr align="left" width="92%" size="1">
 
-<img align="right" src="assets/formation-leadership.gif" alt="Rede de liderança e inteligência artificial pontilhada e animada." width="260">
+<img align="right" src="assets/formation-leadership.gif" alt="Rede de liderança e inteligência artificial pontilhada e animada." width="225">
 
 <sub><strong>L I D E R A N Ç A</strong></sub>
 
