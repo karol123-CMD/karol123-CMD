@@ -27,15 +27,16 @@ Busco consolidar minha carreira como Analista de Dados, combinando capacidade an
 
 ### Estagiária em Análise de Dados — Expertizze Sucesso do Cliente
 
-Atuo na organização e análise de dados utilizados em pesquisas de satisfação e demandas de desempenho e marketing.
+Atuo na organização e análise de dados para pesquisas de satisfação,<br>
+indicadores de desempenho e demandas de marketing.
 
-<img align="right" src="assets/experience-line-chart.gif" alt="Gráfico de linha monocromático animado, usado como elemento visual decorativo na seção de experiência profissional." width="320">
+<img align="right" src="assets/about-data-bars.gif" alt="Gráfico de barras monocromático animado representando o fluxo entre estruturação, transformação e geração de insights." width="360">
 
-- Estruturação do fluxo de preparação e atualização dos dados da Pesquisa de Satisfação TSI.
-- Tratamento, padronização e consolidação de dados com Power Query.
-- Desenvolvimento de dashboard para acompanhamento de desempenho.
+- Estruturação e atualização dos dados da Pesquisa de Satisfação TSI.
+- Tratamento, padronização e consolidação com Power Query.
+- Dashboard para acompanhamento de desempenho.
 - Análise de indicadores de satisfação e resultados.
-- Análises relacionadas a ações de brindes e marketing.
+- Análises de ações de brindes e marketing.
 - Documentação e comunicação dos resultados analíticos.
 
 `Fontes → Power Query → Tratamento → Indicadores → Dashboard`
