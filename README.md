@@ -89,14 +89,7 @@ A solução combina planilhas, transferência por CSV, banco relacional no Supab
 
 ## Formação, certificação e liderança
 
-**Bacharelado em Sistemas de Informação — UNEX**  
-Quarto semestre
-
-**Google Data Analytics Professional Certificate — Google/Coursera**  
-Concluído em outubro de 2026 · Programa composto por nove cursos
-
-**Embaixadores Estudantis do Google 2026**  
-Participação em atividades relacionadas à aplicação de inteligência artificial e ao desenvolvimento de competências de liderança e colaboração.
+<img src="assets/formation-editorial-journey.svg" alt="Trajetória de formação, certificação e liderança: Bacharelado em Sistemas de Informação na UNEX, Google Data Analytics Professional Certificate e Embaixadores Estudantis do Google 2026." width="100%">
 
 ## Em desenvolvimento
 
