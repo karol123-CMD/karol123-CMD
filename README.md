@@ -40,7 +40,7 @@ Atuo na organização e análise de dados voltados a pesquisas de satisfação, 
 
 ## Projetos em destaque
 
-<a href="https://github.com/karol123-CMD/adventureworks-sales-analysis"><img src="assets/project-adventureworks-visual-v2.svg" alt="AdventureWorks: análise de vendas, rentabilidade e concentração; dashboard com cinco páginas e 4.782 comparações documentadas entre SQL e DAX." width="960"></a>
+<a href="https://github.com/karol123-CMD/adventureworks-sales-analysis"><img src="assets/project-adventureworks-visual-v3.svg" alt="AdventureWorks: análise de vendas, rentabilidade e concentração; dashboard com cinco páginas e 4.782 comparações documentadas entre SQL e DAX." width="960"></a>
 
 Projeto ponta a ponta de Business Intelligence para análise de vendas, clientes, produtos, rentabilidade e territórios.
 
@@ -50,7 +50,7 @@ A solução utiliza SQL Server, views analíticas, Power Query, modelo dimension
 
 <br><br>
 
-<a href="https://github.com/karol123-CMD/olist_operational_analysis"><img src="assets/project-olist-visual-v2.svg" alt="Olist: análise operacional de 99.441 pedidos, com foco em entregas, SLA, frete e avaliações." width="960"></a>
+<a href="https://github.com/karol123-CMD/olist_operational_analysis"><img src="assets/project-olist-visual-v3.svg" alt="Olist: análise operacional de 99.441 pedidos, com foco em entregas, SLA, frete e avaliações." width="960"></a>
 
 Análise exploratória de **99.441 pedidos** do Brazilian E-Commerce Public Dataset, com foco em entregas, cumprimento de SLA, frete, distribuição geográfica e avaliações de clientes.
 
@@ -60,7 +60,7 @@ O projeto consolida diferentes fontes com Power Query e apresenta os resultados 
 
 <br><br>
 
-<a href="https://github.com/karol123-CMD/credit-risk-etl-pipeline"><img src="assets/project-credit-risk-visual-v2.svg" alt="Credit Risk Analytics: ETL e qualidade de dados sobre aproximadamente 150 mil registros, com segmentação descritiva." width="960"></a>
+<a href="https://github.com/karol123-CMD/credit-risk-etl-pipeline"><img src="assets/project-credit-risk-visual-v3.svg" alt="Credit Risk Analytics: ETL e qualidade de dados sobre aproximadamente 150 mil registros, com segmentação descritiva." width="960"></a>
 
 Projeto de ETL e análise exploratória do dataset Give Me Some Credit, com **150 mil registros na origem** e 149.999 após o filtro de idade inválida.
 
@@ -70,7 +70,7 @@ O trabalho documenta limpeza, tipagem, tratamento de valores ausentes, criação
 
 <br><br>
 
-<a href="https://github.com/karol123-CMD/TaskFlow-analytics-gestao-tarefas"><img src="assets/project-taskflow-visual-v2.svg" alt="TaskFlow Analytics: gestão de tarefas, produtividade e SLA com modelagem relacional e indicadores operacionais." width="960"></a>
+<a href="https://github.com/karol123-CMD/TaskFlow-analytics-gestao-tarefas"><img src="assets/project-taskflow-visual-v3.svg" alt="TaskFlow Analytics: gestão de tarefas, produtividade e SLA com modelagem relacional e indicadores operacionais." width="960"></a>
 
 Projeto de análise operacional para acompanhar tarefas, prioridades, prazos, produtividade e cumprimento de SLA.
 
