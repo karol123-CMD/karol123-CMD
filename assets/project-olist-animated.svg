@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="205" viewBox="0 0 960 205" role="img" aria-labelledby="title desc">
+  <title id="title">Olist: Pedidos, entregas e experiência</title>
+  <desc id="desc">Card animado do projeto Olist com gráfico de linha e área. Evidência: 99.441 pedidos analisados.</desc>
+  <defs>
+    <pattern id="grid" width="26" height="26" patternUnits="userSpaceOnUse"><path d="M26 0H0V26" fill="none" stroke="#252b33" opacity=".45"/></pattern>
+    <linearGradient id="area" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#d7dce2" stop-opacity=".24"/><stop offset="1" stop-color="#d7dce2" stop-opacity=".02"/></linearGradient>
+  </defs>
+  <rect x="1" y="1" width="958" height="203" rx="14" fill="#0d1117" stroke="#59616c" stroke-width="2"/>
+  <rect x="2" y="2" width="956" height="201" rx="13" fill="url(#grid)" opacity=".5"/>
+  <path d="M3 17V188" stroke="#f0f3f6" stroke-width="4"/>
+  <text x="32" y="57" font-family="Georgia,serif" font-size="32" font-weight="700" fill="#f0f3f6">Olist</text>
+  <text x="32" y="87" font-family="Arial,sans-serif" font-size="18" fill="#a8afb9">Pedidos, entregas e experiência</text>
+  <text x="32" y="124" font-family="Arial,sans-serif" font-size="18" font-weight="700" fill="#f0f3f6">99.441 pedidos analisados</text>
+  <path d="M32 150H928" stroke="#30363d" stroke-width="2"/>
+  <text x="32" y="180" font-family="Arial,sans-serif" font-size="15" fill="#a8afb9">Excel · Power Query · ETL · KPIs</text>
+  <path d="M615 24V140" stroke="#3d444d" stroke-width="2"/>
+  <g aria-label="Gráfico de linha e área animado">
+    <path d="M642 130H902" stroke="#3d444d" stroke-width="2"/>
+    <path d="M652 113L704 77L756 101L814 56L887 82V130H652Z" fill="url(#area)"><animate attributeName="opacity" values=".3;.9;.3" dur="4s" repeatCount="indefinite"/></path>
+    <path d="M652 113L704 77L756 101L814 56L887 82" pathLength="1" fill="none" stroke="#e6edf3" stroke-width="3" stroke-dasharray="1" stroke-dashoffset="1"><animate attributeName="stroke-dashoffset" values="1;0;0" keyTimes="0;.55;1" dur="4s" repeatCount="indefinite"/></path>
+    <g fill="#0d1117" stroke="#f0f3f6" stroke-width="2.5">
+      <circle cx="652" cy="113" r="5"><animate attributeName="r" values="3;6;3" dur="2s" begin="0s" repeatCount="indefinite"/></circle>
+      <circle cx="704" cy="77" r="5"><animate attributeName="r" values="3;6;3" dur="2s" begin=".3s" repeatCount="indefinite"/></circle>
+      <circle cx="756" cy="101" r="5"><animate attributeName="r" values="3;6;3" dur="2s" begin=".6s" repeatCount="indefinite"/></circle>
+      <circle cx="814" cy="56" r="5"><animate attributeName="r" values="3;6;3" dur="2s" begin=".9s" repeatCount="indefinite"/></circle>
+      <circle cx="887" cy="82" r="5"><animate attributeName="r" values="3;6;3" dur="2s" begin="1.2s" repeatCount="indefinite"/></circle>
+    </g>
+  </g>
+</svg>
+
