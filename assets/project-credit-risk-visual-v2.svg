@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="205" viewBox="0 0 960 205" role="img" aria-labelledby="title desc">
+  <title id="title">Credit Risk Analytics: ETL e qualidade de dados</title>
+  <desc id="desc">Card animado do projeto Credit Risk Analytics com gráfico de dispersão. Evidência: aproximadamente 150 mil registros na base de origem.</desc>
+  <defs><pattern id="grid" width="26" height="26" patternUnits="userSpaceOnUse"><path d="M26 0H0V26" fill="none" stroke="#252b33" opacity=".45"/></pattern></defs>
+  <rect x="1" y="1" width="958" height="203" rx="14" fill="#0d1117" stroke="#59616c" stroke-width="2"/>
+  <rect x="2" y="2" width="956" height="201" rx="13" fill="url(#grid)" opacity=".5"/>
+  <path d="M3 17V188" stroke="#f0f3f6" stroke-width="4"/>
+  <text x="32" y="57" font-family="Georgia,serif" font-size="32" font-weight="700" fill="#f0f3f6">Credit Risk Analytics</text>
+  <text x="32" y="87" font-family="Arial,sans-serif" font-size="18" fill="#a8afb9">ETL e qualidade de dados</text>
+  <text x="32" y="124" font-family="Arial,sans-serif" font-size="18" font-weight="700" fill="#f0f3f6">~150 mil registros na base de origem</text>
+  <path d="M32 150H928" stroke="#30363d" stroke-width="2"/>
+  <text x="32" y="180" font-family="Arial,sans-serif" font-size="15" fill="#a8afb9">Excel · Power Query · Linguagem M · ETL</text>
+  <path d="M615 24V140" stroke="#3d444d" stroke-width="2"/>
+  <g aria-label="Gráfico de dispersão com tendência animado">
+    <path d="M648 55v-8h10M890 47h10v8M648 125v8h10M890 133h10v-8" fill="none" stroke="#7d8590" stroke-width="1.5"/>
+    <g stroke="#252b33"><path d="M660 68H888M660 91H888M660 114H888"/><path d="M685 56V127M730 56V127M775 56V127M820 56V127M865 56V127"/></g>
+    <path d="M660 119L887 55" stroke="#d7dce2" stroke-width="2"/>
+    <g fill="#d7dce2">
+      <circle cx="665" cy="112" r="3"><animate attributeName="opacity" values=".25;1;.25" dur="2.1s" begin="0s" repeatCount="indefinite"/></circle>
+      <circle cx="682" cy="104" r="4"><animate attributeName="opacity" values=".25;1;.25" dur="2.1s" begin=".2s" repeatCount="indefinite"/></circle>
+      <circle cx="701" cy="110" r="2.5"><animate attributeName="opacity" values=".25;1;.25" dur="2.1s" begin=".4s" repeatCount="indefinite"/></circle>
+      <circle cx="716" cy="91" r="4"><animate attributeName="opacity" values=".25;1;.25" dur="2.1s" begin=".6s" repeatCount="indefinite"/></circle>
+      <circle cx="735" cy="96" r="3"><animate attributeName="opacity" values=".25;1;.25" dur="2.1s" begin=".8s" repeatCount="indefinite"/></circle>
+      <circle cx="752" cy="79" r="4.5"><animate attributeName="opacity" values=".25;1;.25" dur="2.1s" begin="1s" repeatCount="indefinite"/></circle>
+      <circle cx="770" cy="87" r="2.5"><animate attributeName="opacity" values=".25;1;.25" dur="2.1s" begin="1.2s" repeatCount="indefinite"/></circle>
+      <circle cx="789" cy="71" r="4"><animate attributeName="opacity" values=".25;1;.25" dur="2.1s" begin="1.4s" repeatCount="indefinite"/></circle>
+      <circle cx="806" cy="76" r="3"><animate attributeName="opacity" values=".25;1;.25" dur="2.1s" begin="1.6s" repeatCount="indefinite"/></circle>
+      <circle cx="824" cy="57" r="4"><animate attributeName="opacity" values=".25;1;.25" dur="2.1s" begin="1.8s" repeatCount="indefinite"/></circle>
+      <circle cx="844" cy="65" r="2.5"><animate attributeName="opacity" values=".25;1;.25" dur="2.1s" begin="2s" repeatCount="indefinite"/></circle>
+      <circle cx="862" cy="49" r="4"><animate attributeName="opacity" values=".25;1;.25" dur="2.1s" begin="2.2s" repeatCount="indefinite"/></circle>
+      <circle cx="881" cy="55" r="3"><animate attributeName="opacity" values=".25;1;.25" dur="2.1s" begin="2.4s" repeatCount="indefinite"/></circle>
+    </g>
+    <circle r="4" fill="#fff"><animateMotion dur="4s" repeatCount="indefinite" path="M660 119L887 55"/></circle>
+  </g>
+</svg>
+
