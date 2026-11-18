@@ -30,7 +30,7 @@ Busco consolidar minha carreira como Analista de Dados, combinando capacidade an
 Atuo na organização e análise de dados para pesquisas de satisfação,<br>
 indicadores de desempenho e demandas de marketing.
 
-<img align="right" src="assets/about-data-bars.gif" alt="Gráfico de barras monocromático animado representando o fluxo entre estruturação, transformação e geração de insights." width="360">
+<img align="right" src="assets/experience-professional-globe.gif" alt="Globo de dados monocromático animado com fluxo ETL, dashboard de desempenho e indicador de satisfação." width="360" hspace="10" vspace="8">
 
 - Estruturação e atualização dos dados da Pesquisa de Satisfação TSI.
 - Tratamento, padronização e consolidação com Power Query.
