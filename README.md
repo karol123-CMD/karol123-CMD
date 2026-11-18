@@ -52,7 +52,7 @@ A solução utiliza SQL Server, views analíticas, Power Query, modelo dimension
 
 **Stack:** SQL Server · T-SQL · Power Query · Power BI · DAX · Modelagem Dimensional
 
-<br><br><br><br><br><br>
+<br><br><br>
 
 <a href="https://github.com/karol123-CMD/olist_operational_analysis"><img src="assets/project-olist-visual-v2.svg" alt="Olist: análise operacional de 99.441 pedidos, com foco em entregas, SLA, frete e avaliações." width="960"></a>
 
@@ -62,7 +62,7 @@ O projeto consolida diferentes fontes com Power Query e apresenta os resultados 
 
 **Stack:** Excel · Power Query · ETL · KPIs · Análise Descritiva
 
-<br><br><br><br><br><br>
+<br><br><br>
 
 <a href="https://github.com/karol123-CMD/credit-risk-etl-pipeline"><img src="assets/project-credit-risk-visual-v2.svg" alt="Credit Risk Analytics: ETL e qualidade de dados sobre aproximadamente 150 mil registros, com segmentação descritiva." width="960"></a>
 
@@ -72,7 +72,7 @@ O trabalho documenta limpeza, tipagem, tratamento de valores ausentes, criação
 
 **Stack:** Excel · Power Query · Linguagem M · ETL · Qualidade de Dados
 
-<br><br><br><br><br><br>
+<br><br><br>
 
 <a href="https://github.com/karol123-CMD/TaskFlow-analytics-gestao-tarefas"><img src="assets/project-taskflow-visual-v2.svg" alt="TaskFlow Analytics: gestão de tarefas, produtividade e SLA com modelagem relacional e indicadores operacionais." width="960"></a>
 
@@ -82,7 +82,7 @@ A solução combina planilhas, transferência por CSV, banco relacional no Supab
 
 **Stack:** SQL · PLpgSQL · Supabase · Google Sheets · Excel
 
-<br><br><br><br><br><br>
+<br><br><br>
 
 ## Projetos complementares
 
