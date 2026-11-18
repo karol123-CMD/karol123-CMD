@@ -1,0 +1,230 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="620" viewBox="0 80 1600 620" role="img" aria-labelledby="title desc">
+  <title id="title">Stack principal e fluxo de integração</title>
+  <desc id="desc">Workflow de tecnologias: SQL e Excel alimentam Power Query, Modelagem de Dados, DAX e Power BI. APIs, n8n, Node.js e Supabase formam o fluxo de integração, com SQL Server e Git como recursos de suporte.</desc>
+  <defs>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#222831" stroke-width="1" opacity=".55"/>
+      <circle cx="0" cy="0" r="1.2" fill="#3a424d" opacity=".45"/>
+    </pattern>
+    <filter id="shadow" x="-20%" y="-25%" width="140%" height="160%">
+      <feDropShadow dx="0" dy="7" stdDeviation="4" flood-color="#000" flood-opacity=".65"/>
+    </filter>
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <marker id="arrow" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto">
+      <path d="M0 0L9 4.5 0 9Z" fill="#e6edf3"/>
+    </marker>
+    <style>
+      .title{fill:#f0f3f6;font:700 38px -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif}
+      .stage{fill:#d7dce2;font:700 15px -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;letter-spacing:1.4px}
+      .nodeText{fill:#f0f3f6;font:650 24px -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif}
+      .smallText{fill:#f0f3f6;font:650 21px -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif}
+      .tag{fill:#d7dce2;font:700 14px -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;letter-spacing:1px}
+      .node{fill:#090c10;stroke:#e6edf3;stroke-width:2}
+      .divider{stroke:#7d8590;stroke-width:1.5}
+      .wire{fill:none;stroke:#e6edf3;stroke-width:2.2;marker-end:url(#arrow)}
+      .support{fill:none;stroke:#aeb6c0;stroke-width:2;stroke-dasharray:5 6}
+      .port{fill:#f0f3f6;stroke:#090c10;stroke-width:2}
+    </style>
+  </defs>
+
+  <rect width="1600" height="700" rx="18" fill="#0d1117"/>
+  <rect width="1600" height="700" rx="18" fill="url(#grid)"/>
+  <rect x="1" y="81" width="1598" height="618" rx="17" fill="none" stroke="#30363d"/>
+
+  <!-- Section: core analytics -->
+  <g aria-label="Stack principal">
+    <g transform="translate(48 33)" fill="none" stroke="#f0f3f6" stroke-width="3">
+      <path d="M0 15L22 3l22 12-22 12zM0 25l22 12 22-12M0 35l22 12 22-12"/>
+    </g>
+    <line x1="108" y1="35" x2="108" y2="83" stroke="#7d8590" stroke-width="2"/>
+    <text class="title" x="132" y="70">Stack principal</text>
+    <line x1="390" y1="58" x2="1548" y2="58" stroke="#7d8590"/>
+
+    <g>
+      <rect x="104" y="101" width="104" height="30" rx="8" fill="#11161d" stroke="#66707c"/>
+      <text class="stage" x="156" y="122" text-anchor="middle">FONTES</text>
+      <rect x="414" y="101" width="142" height="30" rx="8" fill="#11161d" stroke="#66707c"/>
+      <text class="stage" x="485" y="122" text-anchor="middle">TRATAMENTO</text>
+      <rect x="737" y="101" width="104" height="30" rx="8" fill="#11161d" stroke="#66707c"/>
+      <text class="stage" x="789" y="122" text-anchor="middle">MODELO</text>
+      <rect x="1037" y="101" width="112" height="30" rx="8" fill="#11161d" stroke="#66707c"/>
+      <text class="stage" x="1093" y="122" text-anchor="middle">MÉTRICAS</text>
+      <rect x="1330" y="101" width="162" height="30" rx="8" fill="#11161d" stroke="#66707c"/>
+      <text class="stage" x="1411" y="122" text-anchor="middle">VISUALIZAÇÃO</text>
+    </g>
+
+    <!-- SQL -->
+    <g transform="translate(50 148)" filter="url(#shadow)">
+      <rect class="node" width="250" height="74" rx="15"/>
+      <g transform="translate(25 17)" fill="none" stroke="#f0f3f6" stroke-width="2.5">
+        <ellipse cx="21" cy="8" rx="18" ry="7"/><path d="M3 8v28c0 4 8 7 18 7s18-3 18-7V8M3 22c0 4 8 7 18 7s18-3 18-7"/>
+      </g>
+      <line class="divider" x1="78" y1="16" x2="78" y2="58"/>
+      <text class="nodeText" x="100" y="46">SQL</text>
+      <circle class="port" cx="250" cy="37" r="7"/>
+    </g>
+
+    <!-- Excel -->
+    <g transform="translate(50 242)" filter="url(#shadow)">
+      <rect class="node" width="250" height="74" rx="15"/>
+      <g transform="translate(23 15)" filter="url(#softGlow)">
+        <rect width="44" height="44" rx="6" fill="#107c41"/>
+        <rect x="23" y="7" width="23" height="30" rx="2" fill="#21a366"/>
+        <path d="M8 11h10l7 22h-9l-2-7-3 7H3l7-12z" fill="#fff" opacity=".96"/>
+        <path d="M27 13h15M27 20h15M27 27h15" stroke="#d7f5e5" opacity=".75"/>
+      </g>
+      <line class="divider" x1="78" y1="16" x2="78" y2="58"/>
+      <text class="nodeText" x="100" y="46">Excel</text>
+      <circle class="port" cx="250" cy="37" r="7"/>
+    </g>
+
+    <!-- Power Query -->
+    <g transform="translate(390 195)" filter="url(#shadow)">
+      <rect class="node" width="250" height="74" rx="15"/>
+      <circle class="port" cx="0" cy="37" r="7"/>
+      <g transform="translate(24 15)" filter="url(#softGlow)">
+        <rect x="2" y="5" width="34" height="30" rx="3" fill="#118d72"/>
+        <path d="M7 12h24M7 19h24M7 26h24M14 8v24M23 8v24" stroke="#e8fff8" stroke-width="2"/>
+        <path d="M31 2a17 17 0 0 1 10 29M41 31l-1-9-8 4" fill="none" stroke="#6ff0bd" stroke-width="3"/>
+      </g>
+      <line class="divider" x1="78" y1="16" x2="78" y2="58"/>
+      <text class="smallText" x="98" y="45">Power Query</text>
+      <circle class="port" cx="250" cy="37" r="7"/>
+    </g>
+
+    <!-- Modelagem -->
+    <g transform="translate(720 195)" filter="url(#shadow)">
+      <rect class="node" width="270" height="74" rx="15"/>
+      <circle class="port" cx="0" cy="37" r="7"/>
+      <g transform="translate(24 17)" fill="none" stroke="#f0f3f6" stroke-width="2.5">
+        <path d="M0 10L22 0l22 10-22 11zM0 20l22 11 22-11M0 30l22 11 22-11"/>
+      </g>
+      <line class="divider" x1="82" y1="16" x2="82" y2="58"/>
+      <text class="smallText" x="104" y="32">Modelagem</text>
+      <text class="smallText" x="104" y="56">de Dados</text>
+      <circle class="port" cx="270" cy="37" r="7"/>
+    </g>
+
+    <!-- DAX -->
+    <g transform="translate(1060 195)" filter="url(#shadow)">
+      <rect class="node" width="210" height="74" rx="15"/>
+      <circle class="port" cx="0" cy="37" r="7"/>
+      <text x="22" y="49" fill="#f0f3f6" font-family="Georgia,serif" font-size="36" font-style="italic">f(x)</text>
+      <line class="divider" x1="92" y1="16" x2="92" y2="58"/>
+      <text class="nodeText" x="116" y="46">DAX</text>
+      <circle class="port" cx="210" cy="37" r="7"/>
+    </g>
+
+    <!-- Power BI -->
+    <g transform="translate(1340 195)" filter="url(#shadow)">
+      <rect class="node" width="220" height="74" rx="15"/>
+      <circle class="port" cx="0" cy="37" r="7"/>
+      <g transform="translate(25 15)" fill="#f2c811" filter="url(#softGlow)">
+        <rect x="0" y="27" width="9" height="17" rx="2"/><rect x="13" y="16" width="9" height="28" rx="2"/><rect x="26" y="5" width="9" height="39" rx="2"/>
+      </g>
+      <line class="divider" x1="77" y1="16" x2="77" y2="58"/>
+      <text class="smallText" x="98" y="45">Power BI</text>
+    </g>
+
+    <!-- Core connectors -->
+    <path class="wire" d="M307 185H330Q350 185 350 215V222Q350 232 382 232"/>
+    <path class="wire" d="M307 279H330Q350 279 350 249V242Q350 232 382 232"/>
+    <path class="wire" d="M647 232H712"/>
+    <path class="wire" d="M997 232H1052"/>
+    <path class="wire" d="M1277 232H1332"/>
+  </g>
+
+  <!-- Section: integration -->
+  <g aria-label="Integração e automação">
+    <g transform="translate(50 362)" fill="none" stroke="#f0f3f6" stroke-width="3">
+      <circle cx="22" cy="22" r="13"/><circle cx="22" cy="22" r="5"/><path d="M22 0v7M22 37v7M0 22h7M37 22h7M6 6l5 5M33 33l5 5M38 6l-5 5M11 33l-5 5"/>
+    </g>
+    <line x1="108" y1="362" x2="108" y2="410" stroke="#7d8590" stroke-width="2"/>
+    <text class="title" x="132" y="398">Integração e automação</text>
+    <line x1="510" y1="386" x2="1548" y2="386" stroke="#7d8590"/>
+
+    <!-- APIs -->
+    <g transform="translate(70 438)" filter="url(#shadow)">
+      <rect class="node" width="240" height="74" rx="15"/>
+      <path d="M39 22L24 37l15 15M57 22l15 15-15 15M52 16L44 58" fill="none" stroke="#f0f3f6" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+      <line class="divider" x1="88" y1="16" x2="88" y2="58"/>
+      <text class="nodeText" x="112" y="46">APIs</text>
+      <circle class="port" cx="240" cy="37" r="7"/>
+    </g>
+
+    <!-- n8n -->
+    <g transform="translate(390 438)" filter="url(#shadow)">
+      <rect class="node" width="240" height="74" rx="15"/>
+      <g transform="translate(28 18)" fill="none" stroke="#ff6d2d" stroke-width="4" filter="url(#softGlow)">
+        <circle cx="7" cy="19" r="6"/><circle cx="30" cy="6" r="6"/><circle cx="49" cy="19" r="6"/><circle cx="30" cy="34" r="6"/><path d="M13 17l11-8M13 21l11 10M36 9l8 7M36 31l8-8"/>
+      </g>
+      <line class="divider" x1="94" y1="16" x2="94" y2="58"/>
+      <text class="nodeText" x="118" y="46">n8n</text>
+      <circle class="port" cx="0" cy="37" r="7"/><circle class="port" cx="240" cy="37" r="7"/>
+    </g>
+
+    <!-- Node.js -->
+    <g transform="translate(710 438)" filter="url(#shadow)">
+      <rect class="node" width="240" height="74" rx="15"/>
+      <g transform="translate(27 13)" filter="url(#softGlow)">
+        <path d="M24 0L45 12v25L24 49 3 37V12z" fill="none" stroke="#54c536" stroke-width="3"/>
+        <text x="10" y="33" fill="#54c536" font-family="Arial,sans-serif" font-size="20" font-weight="700">JS</text>
+      </g>
+      <line class="divider" x1="91" y1="16" x2="91" y2="58"/>
+      <text class="smallText" x="112" y="45">Node.js</text>
+      <circle class="port" cx="0" cy="37" r="7"/><circle class="port" cx="240" cy="37" r="7"/>
+    </g>
+
+    <!-- Supabase -->
+    <g transform="translate(1030 438)" filter="url(#shadow)">
+      <rect class="node" width="260" height="74" rx="15"/>
+      <g transform="translate(29 13)" filter="url(#softGlow)">
+        <path d="M25 0L3 28h20l-2 21 25-31H27z" fill="#3ecf8e"/>
+        <path d="M25 0L3 28h20z" fill="#62e7aa"/>
+      </g>
+      <line class="divider" x1="91" y1="16" x2="91" y2="58"/>
+      <text class="smallText" x="112" y="45">Supabase</text>
+      <circle class="port" cx="0" cy="37" r="7"/>
+    </g>
+
+    <!-- SQL Server support -->
+    <g transform="translate(360 566)" filter="url(#shadow)">
+      <rect class="node" width="270" height="72" rx="15"/>
+      <g transform="translate(28 13)" fill="none" stroke="#e94b3c" stroke-width="2.5" filter="url(#softGlow)">
+        <path d="M7 3c24 4 34 13 34 22S30 42 7 48c13-12 15-21 0-45z"/>
+        <path d="M10 10c18 5 25 10 25 16s-8 12-25 16M13 17c11 3 16 6 16 10s-5 7-16 10"/>
+      </g>
+      <line class="divider" x1="91" y1="15" x2="91" y2="57"/>
+      <text class="smallText" x="112" y="44">SQL Server</text>
+      <circle class="port" cx="135" cy="0" r="7"/>
+      <rect x="92" y="61" width="86" height="28" rx="7" fill="#11161d" stroke="#66707c"/>
+      <text class="tag" x="135" y="81" text-anchor="middle">BANCO</text>
+    </g>
+
+    <!-- Git support -->
+    <g transform="translate(860 566)" filter="url(#shadow)">
+      <rect class="node" width="250" height="72" rx="15"/>
+      <g transform="translate(29 13)" filter="url(#softGlow)">
+        <rect x="7" y="7" width="34" height="34" rx="4" transform="rotate(45 24 24)" fill="#f05032"/>
+        <path d="M17 14v19M17 20h12v9" fill="none" stroke="#fff" stroke-width="2.5" stroke-linecap="round"/>
+        <circle cx="17" cy="14" r="3" fill="#fff"/><circle cx="17" cy="33" r="3" fill="#fff"/><circle cx="29" cy="29" r="3" fill="#fff"/>
+      </g>
+      <line class="divider" x1="91" y1="15" x2="91" y2="57"/>
+      <text class="nodeText" x="116" y="44">Git</text>
+      <circle class="port" cx="125" cy="0" r="7"/>
+      <rect x="58" y="61" width="134" height="28" rx="7" fill="#11161d" stroke="#66707c"/>
+      <text class="tag" x="125" y="81" text-anchor="middle">VERSIONAMENTO</text>
+    </g>
+
+    <!-- Integration connectors -->
+    <path class="wire" d="M317 475H382"/>
+    <path class="wire" d="M637 475H702"/>
+    <path class="wire" d="M957 475H1022"/>
+    <path class="support" d="M350 475v45q0 25 25 25h120v13"/>
+    <path class="support" d="M970 475v45q0 25-25 25h40v13"/>
+  </g>
+</svg>
+
