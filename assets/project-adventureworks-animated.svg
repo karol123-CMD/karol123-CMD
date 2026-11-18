@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="205" viewBox="0 0 960 205" role="img" aria-labelledby="title desc">
+  <title id="title">AdventureWorks: Vendas, rentabilidade e concentração</title>
+  <desc id="desc">Card animado do projeto AdventureWorks com gráfico de barras. Evidência: 5 páginas e 4.782 comparações SQL x DAX.</desc>
+  <defs><pattern id="grid" width="26" height="26" patternUnits="userSpaceOnUse"><path d="M26 0H0V26" fill="none" stroke="#252b33" opacity=".45"/></pattern></defs>
+  <rect x="1" y="1" width="958" height="203" rx="14" fill="#0d1117" stroke="#59616c" stroke-width="2"/>
+  <rect x="2" y="2" width="956" height="201" rx="13" fill="url(#grid)" opacity=".5"/>
+  <path d="M3 17V188" stroke="#f0f3f6" stroke-width="4"/>
+  <text x="32" y="57" font-family="Georgia,serif" font-size="32" font-weight="700" fill="#f0f3f6">AdventureWorks</text>
+  <text x="32" y="87" font-family="Arial,sans-serif" font-size="18" fill="#a8afb9">Vendas, rentabilidade e concentração</text>
+  <text x="32" y="124" font-family="Arial,sans-serif" font-size="18" font-weight="700" fill="#f0f3f6">5 páginas · 4.782 comparações SQL x DAX</text>
+  <path d="M32 150H928" stroke="#30363d" stroke-width="2"/>
+  <text x="32" y="180" font-family="Arial,sans-serif" font-size="15" fill="#a8afb9">SQL Server · T-SQL · Power Query · DAX · Power BI</text>
+  <path d="M615 24V140" stroke="#3d444d" stroke-width="2"/>
+  <g aria-label="Gráfico de barras animado">
+    <path d="M642 130H902" stroke="#7d8590" stroke-width="2"/>
+    <g fill="#171c23" stroke="#e6edf3" stroke-width="2">
+      <rect x="653" y="96" width="47" height="34"><animate attributeName="y" values="130;96;96;130" dur="4s" repeatCount="indefinite"/><animate attributeName="height" values="0;34;34;0" dur="4s" repeatCount="indefinite"/></rect>
+      <rect x="717" y="76" width="47" height="54"><animate attributeName="y" values="130;76;76;130" dur="4s" begin=".25s" repeatCount="indefinite"/><animate attributeName="height" values="0;54;54;0" dur="4s" begin=".25s" repeatCount="indefinite"/></rect>
+      <rect x="781" y="50" width="47" height="80"><animate attributeName="y" values="130;50;50;130" dur="4s" begin=".5s" repeatCount="indefinite"/><animate attributeName="height" values="0;80;80;0" dur="4s" begin=".5s" repeatCount="indefinite"/></rect>
+      <rect x="845" y="84" width="47" height="46"><animate attributeName="y" values="130;84;84;130" dur="4s" begin=".75s" repeatCount="indefinite"/><animate attributeName="height" values="0;46;46;0" dur="4s" begin=".75s" repeatCount="indefinite"/></rect>
+    </g>
+    <circle cx="821" cy="50" r="4" fill="#f0f3f6"><animate attributeName="r" values="3;6;3" dur="1.8s" repeatCount="indefinite"/><animate attributeName="opacity" values=".55;1;.55" dur="1.8s" repeatCount="indefinite"/></circle>
+  </g>
+</svg>
+
