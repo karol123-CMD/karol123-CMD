@@ -1,27 +1,48 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="960" height="205" viewBox="0 0 960 205" role="img" aria-labelledby="title desc">
   <title id="title">TaskFlow Analytics: Tarefas, SLA e produtividade</title>
-  <desc id="desc">Card animado do projeto TaskFlow Analytics com heatmap de SLA. Evidência: modelagem relacional e indicadores de SLA.</desc>
-  <defs><pattern id="grid" width="26" height="26" patternUnits="userSpaceOnUse"><path d="M26 0H0V26" fill="none" stroke="#252b33" opacity=".45"/></pattern></defs>
-  <rect x="1" y="1" width="958" height="203" rx="14" fill="#0d1117" stroke="#59616c" stroke-width="2"/>
-  <rect x="2" y="2" width="956" height="201" rx="13" fill="url(#grid)" opacity=".5"/>
-  <path d="M3 17V188" stroke="#f0f3f6" stroke-width="4"/>
-  <text x="32" y="57" font-family="Georgia,serif" font-size="32" font-weight="700" fill="#f0f3f6">TaskFlow Analytics</text>
-  <text x="32" y="87" font-family="Arial,sans-serif" font-size="18" fill="#a8afb9">Tarefas, SLA e produtividade</text>
-  <text x="32" y="124" font-family="Arial,sans-serif" font-size="18" font-weight="700" fill="#f0f3f6">Modelagem relacional e indicadores de SLA</text>
-  <path d="M32 150H928" stroke="#30363d" stroke-width="2"/>
-  <text x="32" y="180" font-family="Arial,sans-serif" font-size="15" fill="#a8afb9">SQL · Supabase · Google Sheets · Excel</text>
-  <path d="M615 24V140" stroke="#3d444d" stroke-width="2"/>
-  <g aria-label="Rede de nós e conexões animada">
-    <path d="M648 55v-8h10M890 47h10v8M648 125v8h10M890 133h10v-8" fill="none" stroke="#7d8590" stroke-width="1.5"/>
-    <g stroke="#59616c" stroke-width="1.5"><path d="M674 104L716 69L756 111L803 61L858 99M716 69L803 61M756 111L858 99M674 104L756 111"/><path d="M716 69L756 111M803 61L858 99" opacity=".55"/></g>
-    <g fill="#0d1117" stroke="#e6edf3" stroke-width="2">
-      <circle cx="674" cy="104" r="5"><animate attributeName="r" values="4;8;4" dur="2.6s" begin="0s" repeatCount="indefinite"/></circle>
-      <circle cx="716" cy="69" r="6"><animate attributeName="r" values="5;9;5" dur="2.6s" begin=".4s" repeatCount="indefinite"/></circle>
-      <circle cx="756" cy="111" r="5"><animate attributeName="r" values="4;8;4" dur="2.6s" begin=".8s" repeatCount="indefinite"/></circle>
-      <circle cx="803" cy="61" r="7"><animate attributeName="r" values="6;10;6" dur="2.6s" begin="1.2s" repeatCount="indefinite"/></circle>
-      <circle cx="858" cy="99" r="6"><animate attributeName="r" values="5;9;5" dur="2.6s" begin="1.6s" repeatCount="indefinite"/></circle>
+  <desc id="desc">Card transparente e animado do projeto TaskFlow Analytics com heatmap de SLA. Evidência: modelagem relacional e indicadores de SLA.</desc>
+  <defs/>
+
+  <!-- O canvas e o interior do card permanecem transparentes. -->
+  <rect x="1" y="1" width="958" height="203" rx="12" fill="none" stroke="#59616c" stroke-width="1.5"/>
+  <path d="M574 128C650 40 805 32 932 76" fill="none" stroke="#59616c" stroke-width="1.2" stroke-dasharray="2 8" stroke-linecap="round" opacity=".42"/>
+
+  <text x="32" y="55" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif" font-size="30" font-weight="650" fill="#f0f3f6">TaskFlow Analytics</text>
+  <text x="32" y="84" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif" font-size="17" fill="#a8afb9">Tarefas, SLA e produtividade</text>
+  <text x="32" y="121" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif" font-size="18" font-weight="700" fill="#f0f3f6">Modelagem relacional e indicadores de SLA</text>
+  <path d="M32 149H574" stroke="#3d444d" stroke-width="1.4"/>
+  <text x="32" y="179" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif" font-size="15" fill="#a8afb9">SQL · Supabase · Google Sheets · Excel</text>
+
+  <path d="M602 22V183" stroke="#3d444d" stroke-width="1.4"/>
+  <text x="628" y="35" font-family="'SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="10" letter-spacing="1.2" fill="#7d8590">DATA / ANALYTICS</text>
+  <rect x="909" y="28" width="7" height="7" transform="rotate(45 912.5 31.5)" fill="#f0f3f6"/>
+  <rect x="924" y="28" width="7" height="7" transform="rotate(45 927.5 31.5)" fill="none" stroke="#7d8590"/>
+
+  <g aria-label="Visualização analítica animada">
+    <g stroke="#252b33" stroke-width="1" opacity=".8">
+      <path d="M638 64H922M638 88H922M638 112H922M638 136H922"/>
+      <path d="M666 52V142M714 52V142M762 52V142M810 52V142M858 52V142M906 52V142"/>
     </g>
-    <circle r="3.5" fill="#fff"><animateMotion dur="4s" repeatCount="indefinite" path="M674 104L716 69L803 61L858 99L756 111L674 104"/></circle>
+    <path d="M638 142H922" stroke="#7d8590" stroke-width="1.2"/>
+    <g fill="#a8afb9">
+      <rect x="650" y="54" width="34" height="22" opacity=".25"><animate attributeName="opacity" values=".2;.75;.2" dur="3.2s" begin="0s" repeatCount="indefinite"/></rect>
+      <rect x="692" y="54" width="34" height="22" opacity=".5"><animate attributeName="opacity" values=".3;1;.3" dur="3.2s" begin=".2s" repeatCount="indefinite"/></rect>
+      <rect x="734" y="54" width="34" height="22" opacity=".32"><animate attributeName="opacity" values=".2;.8;.2" dur="3.2s" begin=".4s" repeatCount="indefinite"/></rect>
+      <rect x="776" y="54" width="34" height="22" opacity=".68"><animate attributeName="opacity" values=".35;1;.35" dur="3.2s" begin=".6s" repeatCount="indefinite"/></rect>
+      <rect x="818" y="54" width="34" height="22" opacity=".4"><animate attributeName="opacity" values=".2;.85;.2" dur="3.2s" begin=".8s" repeatCount="indefinite"/></rect>
+      <rect x="860" y="54" width="34" height="22" opacity=".76"><animate attributeName="opacity" values=".4;1;.4" dur="3.2s" begin="1s" repeatCount="indefinite"/></rect>
+      <rect x="650" y="84" width="34" height="22" opacity=".58"><animate attributeName="opacity" values=".3;1;.3" dur="3.2s" begin=".3s" repeatCount="indefinite"/></rect>
+      <rect x="692" y="84" width="34" height="22" opacity=".28"><animate attributeName="opacity" values=".2;.7;.2" dur="3.2s" begin=".5s" repeatCount="indefinite"/></rect>
+      <rect x="734" y="84" width="34" height="22" opacity=".82"><animate attributeName="opacity" values=".4;1;.4" dur="3.2s" begin=".7s" repeatCount="indefinite"/></rect>
+      <rect x="776" y="84" width="34" height="22" opacity=".42"><animate attributeName="opacity" values=".2;.85;.2" dur="3.2s" begin=".9s" repeatCount="indefinite"/></rect>
+      <rect x="818" y="84" width="34" height="22" opacity=".7"><animate attributeName="opacity" values=".35;1;.35" dur="3.2s" begin="1.1s" repeatCount="indefinite"/></rect>
+      <rect x="860" y="84" width="34" height="22" opacity=".35"><animate attributeName="opacity" values=".2;.8;.2" dur="3.2s" begin="1.3s" repeatCount="indefinite"/></rect>
+      <rect x="650" y="114" width="34" height="22" opacity=".34"><animate attributeName="opacity" values=".2;.75;.2" dur="3.2s" begin=".6s" repeatCount="indefinite"/></rect>
+      <rect x="692" y="114" width="34" height="22" opacity=".72"><animate attributeName="opacity" values=".35;1;.35" dur="3.2s" begin=".8s" repeatCount="indefinite"/></rect>
+      <rect x="734" y="114" width="34" height="22" opacity=".48"><animate attributeName="opacity" values=".25;.9;.25" dur="3.2s" begin="1s" repeatCount="indefinite"/></rect>
+      <rect x="776" y="114" width="34" height="22" opacity=".24"><animate attributeName="opacity" values=".15;.65;.15" dur="3.2s" begin="1.2s" repeatCount="indefinite"/></rect>
+      <rect x="818" y="114" width="34" height="22" opacity=".86"><animate attributeName="opacity" values=".45;1;.45" dur="3.2s" begin="1.4s" repeatCount="indefinite"/></rect>
+      <rect x="860" y="114" width="34" height="22" opacity=".54"><animate attributeName="opacity" values=".3;.95;.3" dur="3.2s" begin="1.6s" repeatCount="indefinite"/></rect>
+    </g>
   </g>
 </svg>
-

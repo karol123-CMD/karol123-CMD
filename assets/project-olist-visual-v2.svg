@@ -1,26 +1,41 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="960" height="205" viewBox="0 0 960 205" role="img" aria-labelledby="title desc">
   <title id="title">Olist: Pedidos, entregas e experiência</title>
-  <desc id="desc">Card animado do projeto Olist com gráfico de linha e área. Evidência: 99.441 pedidos analisados.</desc>
+  <desc id="desc">Card transparente e animado do projeto Olist com gráfico de linha e área. Evidência: 99.441 pedidos analisados.</desc>
   <defs>
-    <pattern id="grid" width="26" height="26" patternUnits="userSpaceOnUse"><path d="M26 0H0V26" fill="none" stroke="#252b33" opacity=".45"/></pattern>
-    <linearGradient id="area" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#d7dce2" stop-opacity=".24"/><stop offset="1" stop-color="#d7dce2" stop-opacity=".02"/></linearGradient>
+    <linearGradient id="olistArea" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a8afb9" stop-opacity=".34"/>
+      <stop offset="1" stop-color="#a8afb9" stop-opacity=".02"/>
+    </linearGradient>
   </defs>
-  <rect x="1" y="1" width="958" height="203" rx="14" fill="#0d1117" stroke="#59616c" stroke-width="2"/>
-  <rect x="2" y="2" width="956" height="201" rx="13" fill="url(#grid)" opacity=".5"/>
-  <path d="M3 17V188" stroke="#f0f3f6" stroke-width="4"/>
-  <text x="32" y="57" font-family="Georgia,serif" font-size="32" font-weight="700" fill="#f0f3f6">Olist</text>
-  <text x="32" y="87" font-family="Arial,sans-serif" font-size="18" fill="#a8afb9">Pedidos, entregas e experiência</text>
-  <text x="32" y="124" font-family="Arial,sans-serif" font-size="18" font-weight="700" fill="#f0f3f6">99.441 pedidos analisados</text>
-  <path d="M32 150H928" stroke="#30363d" stroke-width="2"/>
-  <text x="32" y="180" font-family="Arial,sans-serif" font-size="15" fill="#a8afb9">Excel · Power Query · ETL · KPIs</text>
-  <path d="M615 24V140" stroke="#3d444d" stroke-width="2"/>
-  <g aria-label="Gráfico de linha ondulada animado">
-    <path d="M648 55v-8h10M890 47h10v8M648 125v8h10M890 133h10v-8" fill="none" stroke="#7d8590" stroke-width="1.5"/>
-    <g stroke="#252b33"><path d="M660 68H888M660 91H888M660 114H888"/><path d="M685 56V127M730 56V127M775 56V127M820 56V127M865 56V127"/></g>
-    <path d="M660 111C682 99 697 78 720 86S757 113 781 91S817 57 840 70S870 96 891 57" fill="none" stroke="#d7dce2" stroke-width="16" opacity=".11"><animate attributeName="opacity" values=".08;.18;.08" dur="3.6s" repeatCount="indefinite"/></path>
-    <path id="olist-line" d="M660 111C682 99 697 78 720 86S757 113 781 91S817 57 840 70S870 96 891 57" fill="none" stroke="#e6edf3" stroke-width="2.4"/>
-    <g fill="#f0f3f6"><circle cx="660" cy="111" r="2.5"/><circle cx="720" cy="86" r="2.5"/><circle cx="781" cy="91" r="2.5"/><circle cx="840" cy="70" r="2.5"/><circle cx="891" cy="57" r="2.5"/></g>
-    <circle r="4" fill="#fff"><animateMotion dur="4s" repeatCount="indefinite" path="M660 111C682 99 697 78 720 86S757 113 781 91S817 57 840 70S870 96 891 57"/></circle>
+
+  <!-- O canvas e o interior do card permanecem transparentes. -->
+  <rect x="1" y="1" width="958" height="203" rx="12" fill="none" stroke="#59616c" stroke-width="1.5"/>
+  <path d="M574 128C650 40 805 32 932 76" fill="none" stroke="#59616c" stroke-width="1.2" stroke-dasharray="2 8" stroke-linecap="round" opacity=".42"/>
+
+  <text x="32" y="55" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif" font-size="30" font-weight="650" fill="#f0f3f6">Olist</text>
+  <text x="32" y="84" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif" font-size="17" fill="#a8afb9">Pedidos, entregas e experiência</text>
+  <text x="32" y="121" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif" font-size="18" font-weight="700" fill="#f0f3f6">99.441 pedidos analisados</text>
+  <path d="M32 149H574" stroke="#3d444d" stroke-width="1.4"/>
+  <text x="32" y="179" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif" font-size="15" fill="#a8afb9">Excel · Power Query · ETL · KPIs</text>
+
+  <path d="M602 22V183" stroke="#3d444d" stroke-width="1.4"/>
+  <text x="628" y="35" font-family="'SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="10" letter-spacing="1.2" fill="#7d8590">DATA / ANALYTICS</text>
+  <rect x="909" y="28" width="7" height="7" transform="rotate(45 912.5 31.5)" fill="#f0f3f6"/>
+  <rect x="924" y="28" width="7" height="7" transform="rotate(45 927.5 31.5)" fill="none" stroke="#7d8590"/>
+
+  <g aria-label="Visualização analítica animada">
+    <g stroke="#252b33" stroke-width="1" opacity=".8">
+      <path d="M638 64H922M638 88H922M638 112H922M638 136H922"/>
+      <path d="M666 52V142M714 52V142M762 52V142M810 52V142M858 52V142M906 52V142"/>
+    </g>
+    <path d="M638 142H922" stroke="#7d8590" stroke-width="1.2"/>
+    <path d="M650 124L704 88L758 108L812 72L866 91L914 56V142H650Z" fill="url(#olistArea)"/>
+    <path d="M650 124L704 88L758 108L812 72L866 91L914 56" fill="none" stroke="#d7dce2" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="480" stroke-dashoffset="480">
+      <animate attributeName="stroke-dashoffset" values="480;0;0" dur="4.2s" repeatCount="indefinite"/>
+    </path>
+    <g fill="#f0f3f6" stroke="#0d1117" stroke-width="1.5">
+      <circle cx="650" cy="124" r="4"/><circle cx="704" cy="88" r="4"/><circle cx="758" cy="108" r="4"/>
+      <circle cx="812" cy="72" r="4"/><circle cx="866" cy="91" r="4"/><circle cx="914" cy="56" r="4"/>
+    </g>
   </g>
 </svg>
-
