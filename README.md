@@ -82,15 +82,10 @@ A solução combina planilhas, transferência por CSV, banco relacional no Supab
 
 ## Projetos complementares
 
-### [Distribuidora Alpha](https://github.com/karol123-CMD/projeto-sql-distribuidora-alpha)
-
-Banco de dados relacional para uma distribuidora fictícia, com dez tabelas, doze relacionamentos e 38 consultas sobre faturamento, clientes, vendedores, produtos e categorias.  
-**Stack:** SQL · SQLite · Modelagem Relacional
-
-### [AI Commerce Readiness](https://github.com/karol123-CMD/ai-commerce-readiness-mvp)
-
-Aplicação que integra interface web, servidor Node.js e workflow n8n para analisar a qualidade e a completude de anúncios de produtos.  
-**Stack:** n8n · Node.js · JavaScript · APIs · Validação de Dados
+<p>
+  <a href="https://github.com/karol123-CMD/projeto-sql-distribuidora-alpha"><img src="assets/complementary-distribuidora-alpha.svg" alt="Distribuidora Alpha — modelagem relacional e consultas de negócio" width="49%"></a>
+  <a href="https://github.com/karol123-CMD/ai-commerce-readiness-mvp"><img src="assets/complementary-ai-commerce.svg" alt="AI Commerce Readiness — automação e qualidade de anúncios" width="49%"></a>
+</p>
 
 ## Formação, certificação e liderança
 
