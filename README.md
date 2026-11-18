@@ -2,11 +2,15 @@
 
 ## Sobre mim
 
+<img align="right" src="assets/about-data-bars.gif" alt="Gráfico de barras monocromático animado representando o fluxo entre estruturação, transformação e geração de insights." width="320">
+
 Estudante do quarto semestre do Bacharelado em Sistemas de Informação na UNEX e estagiária em Análise de Dados na Expertizze Sucesso do Cliente.
 
 Atuo na preparação, transformação e análise de dados, desenvolvendo fluxos de atualização, dashboards e indicadores para apoiar demandas operacionais e de negócio. Em meus projetos, aplico SQL, Power BI, DAX, Power Query, Excel e modelagem de dados em análises comerciais, logísticas e operacionais.
 
 Busco consolidar minha carreira como Analista de Dados, combinando capacidade analítica, organização técnica e comunicação clara dos resultados.
+
+<br clear="right">
 
 ## Links
 
