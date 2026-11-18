@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="205" viewBox="0 0 960 205" role="img" aria-labelledby="title desc">
+  <title id="title">AdventureWorks: Vendas, rentabilidade e concentração</title>
+  <desc id="desc">Card do projeto AdventureWorks. Evidência: 5 páginas e 4.782 comparações SQL x DAX. Tecnologias: SQL Server, T-SQL, Power Query, DAX e Power BI.</desc>
+  <defs>
+    <pattern id="grid" width="26" height="26" patternUnits="userSpaceOnUse"><path d="M26 0H0V26" fill="none" stroke="#252b33" opacity=".45"/></pattern>
+  </defs>
+  <rect x="1" y="1" width="958" height="203" rx="14" fill="#0d1117" stroke="#59616c" stroke-width="2"/>
+  <rect x="2" y="2" width="956" height="201" rx="13" fill="url(#grid)" opacity=".5"/>
+  <path d="M3 17V188" stroke="#f0f3f6" stroke-width="4"/>
+  <text x="32" y="40" font-family="Arial,sans-serif" font-size="13" font-weight="700" letter-spacing="2" fill="#a8afb9">PROJETO / DATA ANALYTICS</text>
+  <text x="32" y="78" font-family="Georgia,serif" font-size="31" font-weight="700" fill="#f0f3f6">AdventureWorks</text>
+  <text x="32" y="106" font-family="Arial,sans-serif" font-size="18" fill="#a8afb9">Vendas, rentabilidade e concentração</text>
+  <text x="32" y="140" font-family="Arial,sans-serif" font-size="18" font-weight="700" fill="#f0f3f6">5 páginas · 4.782 comparações SQL x DAX</text>
+  <path d="M32 156H928" stroke="#30363d" stroke-width="2"/>
+  <text x="32" y="183" font-family="Arial,sans-serif" font-size="15" fill="#a8afb9">SQL Server · T-SQL · Power Query · DAX · Power BI</text>
+  <path d="M615 24V146" stroke="#3d444d" stroke-width="2"/>
+  <g aria-label="Gráfico de barras monocromático">
+    <path d="M642 130H902" stroke="#7d8590" stroke-width="2"/>
+    <g fill="#171c23" stroke="#d7dce2" stroke-width="2">
+      <path d="M653 130V94H700V130Z"/><path d="M717 130V75H764V130Z"/>
+      <path d="M781 130V50H828V130Z"/><path d="M845 130V83H892V130Z"/>
+    </g>
+    <path d="M658 103H695M722 84H759M786 59H823M850 92H887" stroke="#f0f3f6" opacity=".72"/>
+    <circle cx="821" cy="50" r="5" fill="#f0f3f6"/>
+  </g>
+</svg>
+

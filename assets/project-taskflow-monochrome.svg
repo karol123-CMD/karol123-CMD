@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="205" viewBox="0 0 960 205" role="img" aria-labelledby="title desc">
+  <title id="title">TaskFlow Analytics: Tarefas, SLA e produtividade</title>
+  <desc id="desc">Card do projeto TaskFlow Analytics. Evidência: Modelagem relacional e indicadores de SLA. Tecnologias: SQL, Supabase, Google Sheets e Excel.</desc>
+  <defs><pattern id="grid" width="26" height="26" patternUnits="userSpaceOnUse"><path d="M26 0H0V26" fill="none" stroke="#252b33" opacity=".45"/></pattern></defs>
+  <rect x="1" y="1" width="958" height="203" rx="14" fill="#0d1117" stroke="#59616c" stroke-width="2"/>
+  <rect x="2" y="2" width="956" height="201" rx="13" fill="url(#grid)" opacity=".5"/>
+  <path d="M3 17V188" stroke="#f0f3f6" stroke-width="4"/>
+  <text x="32" y="40" font-family="Arial,sans-serif" font-size="13" font-weight="700" letter-spacing="2" fill="#a8afb9">PROJETO / DATA ANALYTICS</text>
+  <text x="32" y="78" font-family="Georgia,serif" font-size="31" font-weight="700" fill="#f0f3f6">TaskFlow Analytics</text>
+  <text x="32" y="106" font-family="Arial,sans-serif" font-size="18" fill="#a8afb9">Tarefas, SLA e produtividade</text>
+  <text x="32" y="140" font-family="Arial,sans-serif" font-size="18" font-weight="700" fill="#f0f3f6">Modelagem relacional e indicadores de SLA</text>
+  <path d="M32 156H928" stroke="#30363d" stroke-width="2"/>
+  <text x="32" y="183" font-family="Arial,sans-serif" font-size="15" fill="#a8afb9">SQL · Supabase · Google Sheets · Excel</text>
+  <path d="M615 24V146" stroke="#3d444d" stroke-width="2"/>
+  <g aria-label="Tabela de acompanhamento de SLA">
+    <rect x="650" y="53" width="225" height="84" rx="7" fill="#0a0e13" stroke="#7d8590" stroke-width="1.5"/>
+    <path d="M650 80H875M650 108H875M720 53V137M802 53V137" stroke="#3d444d" stroke-width="2"/>
+    <path d="M671 67H698M740 94H781M820 122H851" stroke="#e6edf3" stroke-width="4"/>
+    <circle cx="698" cy="67" r="3" fill="#f0f3f6"/><circle cx="781" cy="94" r="3" fill="#f0f3f6"/><circle cx="851" cy="122" r="3" fill="#f0f3f6"/>
+  </g>
+</svg>
+
