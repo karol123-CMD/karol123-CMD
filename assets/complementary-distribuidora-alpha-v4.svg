@@ -12,7 +12,10 @@
   <path d="M408 245C490 78 640 70 736 142" fill="none" stroke="#59616c" stroke-width="1.2" stroke-dasharray="2 8" stroke-linecap="round" opacity=".42"/>
 
   <text x="42" y="72" fill="#f0f3f6" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif" font-size="34" font-weight="650">Distribuidora Alpha</text>
-  <text x="42" y="113" fill="#a8afb9" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif" font-size="20">Modelagem relacional e consultas de negócio</text>
+  <text x="42" fill="#a8afb9" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif" font-size="20">
+    <tspan x="42" y="105">Modelagem relacional e consultas de</tspan>
+    <tspan x="42" y="132">negócio</tspan>
+  </text>
 
   <text x="42" y="182" fill="#f0f3f6" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif" font-size="21" font-weight="700">10 tabelas · 12 relacionamentos</text>
   <text x="42" y="218" fill="#f0f3f6" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif" font-size="21" font-weight="700">38 consultas de negócio</text>
