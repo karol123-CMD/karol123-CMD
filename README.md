@@ -15,13 +15,16 @@ Busco consolidar minha carreira como Analista de Dados, combinando capacidade an
 ## Links
 
 <p>
-  <a href="https://www.linkedin.com/in/karol-antunes-silva-2b9236390/"><img src="assets/link-linkedin.svg" alt="LinkedIn — acessar perfil profissional" width="49%"></a>
-  <a href="#projetos-em-destaque"><img src="assets/link-projects.svg" alt="Projetos em destaque — ver principais análises" width="49%"></a>
+  <a href="https://www.linkedin.com/in/karol-antunes-silva-2b9236390/"><img src="assets/link-linkedin.svg" alt="LinkedIn — acessar perfil profissional" width="315"></a>
+  <a href="#projetos-em-destaque"><img src="assets/link-projects.svg" alt="Projetos em destaque — ver principais análises" width="315"></a>
 </p>
 
 ## Stack principal
 
-<img src="assets/stack-workflow.svg" alt="Workflow da stack: SQL e Excel seguem para Power Query, Modelagem de Dados, DAX e Power BI. APIs, n8n, Node.js e Supabase compõem o fluxo de integração, com SQL Server e Git como recursos de suporte." width="100%">
+<picture>
+  <source media="(max-width: 640px)" srcset="assets/stack-workflow-mobile.svg">
+  <img src="assets/stack-workflow.svg" alt="Workflow da stack: SQL e Excel seguem para Power Query, Modelagem de Dados, DAX e Power BI. APIs, n8n, Node.js e Supabase compõem o fluxo de integração, com SQL Server e Git como recursos de suporte." width="100%">
+</picture>
 
 ## Experiência profissional
 
@@ -40,7 +43,7 @@ Atuo na organização e análise de dados voltados a pesquisas de satisfação, 
 
 ## Projetos em destaque
 
-<a href="https://github.com/karol123-CMD/adventureworks-sales-analysis"><img src="assets/project-adventureworks-visual-v4.svg" alt="AdventureWorks: análise de vendas, rentabilidade e concentração; dashboard com cinco páginas e 4.782 comparações documentadas entre SQL e DAX." width="960"></a>
+<a href="https://github.com/karol123-CMD/adventureworks-sales-analysis"><picture><source media="(max-width: 640px)" srcset="assets/project-adventureworks-mobile-v1.svg"><img src="assets/project-adventureworks-visual-v4.svg" alt="AdventureWorks: análise de vendas, rentabilidade e concentração; dashboard com cinco páginas e 4.782 comparações documentadas entre SQL e DAX." width="960" loading="lazy"></picture></a>
 
 Projeto ponta a ponta de Business Intelligence para análise de vendas, clientes, produtos, rentabilidade e territórios.
 
@@ -50,7 +53,7 @@ A solução utiliza SQL Server, views analíticas, Power Query, modelo dimension
 
 <br><br>
 
-<a href="https://github.com/karol123-CMD/olist_operational_analysis"><img src="assets/project-olist-visual-v4.svg" alt="Olist: análise operacional de 99.441 pedidos, com foco em entregas, SLA, frete e avaliações." width="960"></a>
+<a href="https://github.com/karol123-CMD/olist_operational_analysis"><picture><source media="(max-width: 640px)" srcset="assets/project-olist-mobile-v1.svg"><img src="assets/project-olist-visual-v4.svg" alt="Olist: análise operacional de 99.441 pedidos, com foco em entregas, SLA, frete e avaliações." width="960" loading="lazy"></picture></a>
 
 Análise exploratória de **99.441 pedidos** do Brazilian E-Commerce Public Dataset, com foco em entregas, cumprimento de SLA, frete, distribuição geográfica e avaliações de clientes.
 
@@ -60,7 +63,7 @@ O projeto consolida diferentes fontes com Power Query e apresenta os resultados 
 
 <br><br>
 
-<a href="https://github.com/karol123-CMD/credit-risk-etl-pipeline"><img src="assets/project-credit-risk-visual-v4.svg" alt="Credit Risk Analytics: ETL e qualidade de dados sobre aproximadamente 150 mil registros, com segmentação descritiva." width="960"></a>
+<a href="https://github.com/karol123-CMD/credit-risk-etl-pipeline"><picture><source media="(max-width: 640px)" srcset="assets/project-credit-risk-mobile-v1.svg"><img src="assets/project-credit-risk-visual-v4.svg" alt="Credit Risk Analytics: ETL e qualidade de dados sobre aproximadamente 150 mil registros, com segmentação descritiva." width="960" loading="lazy"></picture></a>
 
 Projeto de ETL e análise exploratória do dataset Give Me Some Credit, com **150 mil registros na origem** e 149.999 após o filtro de idade inválida.
 
@@ -70,7 +73,7 @@ O trabalho documenta limpeza, tipagem, tratamento de valores ausentes, criação
 
 <br><br>
 
-<a href="https://github.com/karol123-CMD/TaskFlow-analytics-gestao-tarefas"><img src="assets/project-taskflow-visual-v4.svg" alt="TaskFlow Analytics: gestão de tarefas, produtividade e SLA com modelagem relacional e indicadores operacionais." width="960"></a>
+<a href="https://github.com/karol123-CMD/TaskFlow-analytics-gestao-tarefas"><picture><source media="(max-width: 640px)" srcset="assets/project-taskflow-mobile-v1.svg"><img src="assets/project-taskflow-visual-v4.svg" alt="TaskFlow Analytics: gestão de tarefas, produtividade e SLA com modelagem relacional e indicadores operacionais." width="960" loading="lazy"></picture></a>
 
 Projeto de análise operacional para acompanhar tarefas, prioridades, prazos, produtividade e cumprimento de SLA.
 
@@ -83,13 +86,13 @@ A solução combina planilhas, transferência por CSV, banco relacional no Supab
 ## Projetos complementares
 
 <p>
-  <a href="https://github.com/karol123-CMD/projeto-sql-distribuidora-alpha"><img src="assets/complementary-distribuidora-alpha-v4.svg" alt="Distribuidora Alpha — modelagem relacional e consultas de negócio" width="49%"></a>
-  <a href="https://github.com/karol123-CMD/ai-commerce-readiness-mvp"><img src="assets/complementary-ai-commerce-v3.svg" alt="AI Commerce Readiness — automação e qualidade de anúncios" width="49%"></a>
+  <a href="https://github.com/karol123-CMD/projeto-sql-distribuidora-alpha"><img src="assets/complementary-distribuidora-alpha-v4.svg" alt="Distribuidora Alpha — modelagem relacional e consultas de negócio" width="315" loading="lazy"></a>
+  <a href="https://github.com/karol123-CMD/ai-commerce-readiness-mvp"><img src="assets/complementary-ai-commerce-v3.svg" alt="AI Commerce Readiness — automação e qualidade de anúncios" width="315" loading="lazy"></a>
 </p>
 
 ## Formação, certificação e liderança
 
-<img align="right" src="assets/formation-education.gif" alt="Capelo universitário pontilhado e animado." width="190">
+<picture><source media="(max-width: 820px)" srcset="assets/formation-education-mobile.svg"><img align="right" src="assets/formation-education.gif" alt="Capelo universitário pontilhado e animado." width="25%" loading="lazy"></picture>
 
 <sub><strong>F O R M A Ç Ã O</strong></sub>
 
@@ -101,7 +104,7 @@ Quarto semestre
 
 <hr align="left" width="84%" size="1">
 
-<img align="right" src="assets/formation-certification.gif" alt="Certificado e gráfico analítico pontilhados e animados." width="190">
+<picture><source media="(max-width: 820px)" srcset="assets/formation-certification-mobile.svg"><img align="right" src="assets/formation-certification.gif" alt="Certificado e gráfico analítico pontilhados e animados." width="25%" loading="lazy"></picture>
 
 <sub><strong>C E R T I F I C A Ç Ã O</strong></sub>
 
@@ -113,7 +116,7 @@ Google / Coursera · Concluído em outubro de 2026 · 9 cursos
 
 <hr align="left" width="84%" size="1">
 
-<img align="right" src="assets/formation-leadership.gif" alt="Rede de liderança e inteligência artificial pontilhada e animada." width="190">
+<picture><source media="(max-width: 820px)" srcset="assets/formation-leadership-mobile.svg"><img align="right" src="assets/formation-leadership.gif" alt="Rede de liderança e inteligência artificial pontilhada e animada." width="25%" loading="lazy"></picture>
 
 <sub><strong>L I D E R A N Ç A</strong></sub>
 

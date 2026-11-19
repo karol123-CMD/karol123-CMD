@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="200" viewBox="0 0 320 200" role="img" aria-labelledby="title">
+  <title id="title">Liderança e colaboração</title>
+  <g fill="none" stroke="#d8dee4" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="160" cy="68" r="25"/>
+    <path d="M116 153c0-35 19-55 44-55s44 20 44 55"/>
+    <circle cx="72" cy="91" r="19"/><path d="M38 153c0-27 15-43 34-43s34 16 34 43"/>
+    <circle cx="248" cy="91" r="19"/><path d="M214 153c0-27 15-43 34-43s34 16 34 43"/>
+    <path d="M72 52l88-28 88 28M72 52l88 16 88-16" stroke="#7d8590" stroke-dasharray="3 7"/>
+  </g>
+  <g fill="#f0f3f6"><circle cx="72" cy="52" r="4"/><circle cx="160" cy="24" r="4"/><circle cx="248" cy="52" r="4"/></g>
+</svg>
