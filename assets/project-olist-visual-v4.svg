@@ -3,8 +3,8 @@
   <desc id="desc">Card transparente e animado do projeto Olist com gráfico de linha e área. Evidência: 99.441 pedidos analisados.</desc>
   <defs>
     <linearGradient id="olistArea" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#a8afb9" stop-opacity=".34"/>
-      <stop offset="1" stop-color="#a8afb9" stop-opacity=".02"/>
+      <stop offset="0" stop-color="#7895b2" stop-opacity=".32"/>
+      <stop offset="1" stop-color="#7895b2" stop-opacity=".02"/>
     </linearGradient>
   </defs>
 
@@ -30,10 +30,10 @@
     </g>
     <path d="M638 142H922" stroke="#7d8590" stroke-width="1.2"/>
     <path d="M650 124L704 88L758 108L812 72L866 91L914 56V142H650Z" fill="url(#olistArea)"/>
-    <path d="M650 124L704 88L758 108L812 72L866 91L914 56" fill="none" stroke="#d7dce2" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="480" stroke-dashoffset="480">
+    <path d="M650 124L704 88L758 108L812 72L866 91L914 56" fill="none" stroke="#9bb3c9" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="480" stroke-dashoffset="480">
       <animate attributeName="stroke-dashoffset" values="480;0;0" dur="4.2s" repeatCount="indefinite"/>
     </path>
-    <g fill="#f0f3f6" stroke="#0d1117" stroke-width="1.5">
+    <g fill="#f0f3f6" stroke="#7895b2" stroke-width="1.5">
       <circle cx="650" cy="124" r="4"/><circle cx="704" cy="88" r="4"/><circle cx="758" cy="108" r="4"/>
       <circle cx="812" cy="72" r="4"/><circle cx="866" cy="91" r="4"/><circle cx="914" cy="56" r="4"/>
     </g>

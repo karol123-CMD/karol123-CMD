@@ -24,10 +24,10 @@
       <path d="M666 52V142M714 52V142M762 52V142M810 52V142M858 52V142M906 52V142"/>
     </g>
     <path d="M638 142H922" stroke="#7d8590" stroke-width="1.2"/>
-    <path d="M650 128L914 55" fill="none" stroke="#d7dce2" stroke-width="1.6" stroke-dasharray="5 5" opacity=".78">
+    <path d="M650 128L914 55" fill="none" stroke="#d8a3ac" stroke-width="1.6" stroke-dasharray="5 5" opacity=".78">
       <animate attributeName="stroke-dashoffset" values="20;0" dur="3s" repeatCount="indefinite"/>
     </path>
-    <g fill="#a8afb9">
+    <g fill="#b86f7c">
       <circle cx="662" cy="122" r="4"><animate attributeName="opacity" values=".35;1;.35" dur="2.8s" begin=".1s" repeatCount="indefinite"/></circle>
       <circle cx="684" cy="114" r="5"><animate attributeName="opacity" values=".35;1;.35" dur="2.8s" begin=".3s" repeatCount="indefinite"/></circle>
       <circle cx="706" cy="119" r="3"><animate attributeName="opacity" values=".35;1;.35" dur="2.8s" begin=".5s" repeatCount="indefinite"/></circle>
