@@ -83,8 +83,8 @@ A solução combina planilhas, transferência por CSV, banco relacional no Supab
 ## Projetos complementares
 
 <p>
-  <a href="https://github.com/karol123-CMD/projeto-sql-distribuidora-alpha"><img src="assets/complementary-distribuidora-alpha.svg" alt="Distribuidora Alpha — modelagem relacional e consultas de negócio" width="49%"></a>
-  <a href="https://github.com/karol123-CMD/ai-commerce-readiness-mvp"><img src="assets/complementary-ai-commerce.svg" alt="AI Commerce Readiness — automação e qualidade de anúncios" width="49%"></a>
+  <a href="https://github.com/karol123-CMD/projeto-sql-distribuidora-alpha"><img src="assets/complementary-distribuidora-alpha-v2.svg" alt="Distribuidora Alpha — modelagem relacional e consultas de negócio" width="49%"></a>
+  <a href="https://github.com/karol123-CMD/ai-commerce-readiness-mvp"><img src="assets/complementary-ai-commerce-v2.svg" alt="AI Commerce Readiness — automação e qualidade de anúncios" width="49%"></a>
 </p>
 
 ## Formação, certificação e liderança
