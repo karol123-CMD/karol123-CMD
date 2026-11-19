@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="1100" viewBox="0 0 640 1100" role="img" aria-labelledby="title desc">
+  <title id="title">Stack principal em fluxo vertical</title>
+  <desc id="desc">Versão móvel do workflow: SQL e Excel alimentam Power Query, Modelagem de Dados, DAX e Power BI; APIs, n8n, Node.js e Supabase compõem integração e automação, com SQL Server e Git.</desc>
+  <defs>
+    <linearGradient id="mobileCard" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#161b22"/><stop offset="1" stop-color="#080b0f"/></linearGradient>
+    <marker id="mobileArrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0l10 5-10 5z" fill="#c7ced6"/></marker>
+    <pattern id="mobileDots" width="10" height="10" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#59616c" opacity=".45"/></pattern>
+    <style>
+      .label{font:700 15px 'Segoe UI',Arial,sans-serif;letter-spacing:2px;fill:#c7ced6}.tool{font:650 25px 'Segoe UI',Arial,sans-serif;fill:#f0f3f6}.small{font:600 13px 'Segoe UI',Arial,sans-serif;letter-spacing:1.3px;fill:#8c96a0}.node{fill:url(#mobileCard);stroke:#d8dee4;stroke-width:2}.flow{fill:none;stroke:#aeb7c0;stroke-width:3;stroke-linecap:round;stroke-linejoin:round}.divider{stroke:#414a55;stroke-width:1.5}
+    </style>
+  </defs>
+  <path d="M72 76C198 20 432 20 568 88M78 664c142-52 348-38 484 30M90 1030c150 42 326 34 454-20" fill="none" stroke="#59616c" stroke-width="1.5" stroke-dasharray="3 11" opacity=".5"/>
+  <rect x="28" y="24" width="162" height="40" rx="10" fill="#0d1117" stroke="#59616c"/><text class="label" x="109" y="50" text-anchor="middle">FONTES</text>
+
+  <g transform="translate(28 84)"><path class="node" d="M14 0h246l14 14v60l-14 14H14L0 74V14z"/><ellipse cx="42" cy="34" rx="14" ry="7" fill="none" stroke="#d8dee4" stroke-width="3"/><path d="M28 34v26c0 9 28 9 28 0V34M28 47c0 9 28 9 28 0" fill="none" stroke="#d8dee4" stroke-width="3"/><line class="divider" x1="80" y1="20" x2="80" y2="68"/><text class="tool" x="104" y="55">SQL</text></g>
+  <g transform="translate(338 84)"><path class="node" d="M14 0h246l14 14v60l-14 14H14L0 74V14z"/><rect x="24" y="22" width="42" height="44" rx="5" fill="#217346"/><path d="M37 30l7 12 7-12h8L49 47l11 18h-9l-8-13-8 13h-9l12-18-10-17z" fill="#fff"/><line class="divider" x1="80" y1="20" x2="80" y2="68"/><text class="tool" x="104" y="55">Excel</text></g>
+  <path class="flow" d="M165 174v25h155v27M475 174v25H320" marker-end="url(#mobileArrow)"/>
+
+  <rect x="210" y="200" width="220" height="40" rx="10" fill="#0d1117" stroke="#59616c"/><text class="label" x="320" y="226" text-anchor="middle">TRATAMENTO</text>
+  <g transform="translate(96 250)"><path class="node" d="M14 0h420l14 14v70l-14 14H14L0 84V14z"/><rect x="30" y="24" width="50" height="50" rx="8" fill="#00a6a6"/><g fill="#eaffff"><circle cx="42" cy="36" r="4"/><circle cx="55" cy="36" r="4"/><circle cx="68" cy="36" r="4"/><circle cx="42" cy="49" r="4"/><circle cx="55" cy="49" r="4"/><circle cx="68" cy="49" r="4"/><circle cx="42" cy="62" r="4"/><circle cx="55" cy="62" r="4"/></g><line class="divider" x1="102" y1="23" x2="102" y2="75"/><text class="tool" x="132" y="59">Power Query</text></g>
+  <path class="flow" d="M320 348v52" marker-end="url(#mobileArrow)"/>
+
+  <rect x="232" y="374" width="176" height="40" rx="10" fill="#0d1117" stroke="#59616c"/><text class="label" x="320" y="400" text-anchor="middle">MODELO</text>
+  <g transform="translate(96 426)"><path class="node" d="M14 0h420l14 14v70l-14 14H14L0 84V14z"/><path d="M30 39l28-16 28 16-28 16zm0 18l28 16 28-16" fill="none" stroke="#d8dee4" stroke-width="3"/><line class="divider" x1="106" y1="23" x2="106" y2="75"/><text class="tool" x="136" y="47">Modelagem</text><text class="tool" x="136" y="75">de Dados</text></g>
+  <path class="flow" d="M320 524v50" marker-end="url(#mobileArrow)"/>
+
+  <rect x="238" y="548" width="164" height="40" rx="10" fill="#0d1117" stroke="#59616c"/><text class="label" x="320" y="574" text-anchor="middle">MÉTRICAS</text>
+  <g transform="translate(96 600)"><path class="node" d="M14 0h420l14 14v70l-14 14H14L0 84V14z"/><text x="30" y="67" font-family="Georgia,serif" font-style="italic" font-size="48" fill="#f0f3f6">ƒ(x)</text><line class="divider" x1="120" y1="23" x2="120" y2="75"/><text class="tool" x="150" y="59">DAX</text><g fill="#f2c811"><rect x="340" y="52" width="10" height="22" rx="2"/><rect x="357" y="39" width="10" height="35" rx="2"/><rect x="374" y="23" width="10" height="51" rx="2"/></g><text class="small" x="360" y="91" text-anchor="middle">POWER BI</text></g>
+
+  <line x1="28" y1="734" x2="612" y2="734" stroke="#414a55" stroke-width="2"/>
+  <text x="32" y="782" font-family="'Segoe UI',Arial,sans-serif" font-size="26" font-weight="700" fill="#f0f3f6">INTEGRAÇÃO E AUTOMAÇÃO</text>
+
+  <g transform="translate(28 810)"><path class="node" d="M14 0h246l14 14v58l-14 14H14L0 72V14z"/><path d="M44 24L28 43l16 19M66 24l16 19-16 19M61 19L50 67" fill="none" stroke="#61dafb" stroke-width="3"/><line class="divider" x1="100" y1="20" x2="100" y2="66"/><text class="tool" x="126" y="53">APIs</text></g>
+  <g transform="translate(338 810)"><path class="node" d="M14 0h246l14 14v58l-14 14H14L0 72V14z"/><g fill="none" stroke="#ff6d5a" stroke-width="4"><path d="M27 44h22l18-19 22 36 20-20"/><circle cx="27" cy="44" r="5"/><circle cx="49" cy="44" r="5"/><circle cx="67" cy="25" r="5"/><circle cx="89" cy="61" r="5"/><circle cx="109" cy="41" r="5"/></g><line class="divider" x1="130" y1="20" x2="130" y2="66"/><text class="tool" x="158" y="53">n8n</text></g>
+  <path class="flow" d="M302 853h32" marker-end="url(#mobileArrow)"/>
+
+  <g transform="translate(28 918)"><path class="node" d="M14 0h246l14 14v58l-14 14H14L0 72V14z"/><path d="M54 18l23 13v26L54 70 31 57V31z" fill="none" stroke="#5fa04e" stroke-width="4"/><text x="43" y="54" font-family="'Segoe UI',Arial,sans-serif" font-size="18" font-weight="700" fill="#5fa04e">JS</text><line class="divider" x1="100" y1="20" x2="100" y2="66"/><text class="tool" x="126" y="53">Node.js</text></g>
+  <g transform="translate(338 918)"><path class="node" d="M14 0h246l14 14v58l-14 14H14L0 72V14z"/><path d="M58 18L31 51h24l-5 22 31-39H58z" fill="#3ecf8e"/><line class="divider" x1="100" y1="20" x2="100" y2="66"/><text class="tool" x="126" y="53">Supabase</text></g>
+  <path class="flow" d="M302 961h32" marker-end="url(#mobileArrow)"/>
+
+  <g transform="translate(60 1032)"><rect width="226" height="48" rx="12" fill="#0d1117" stroke="#59616c"/><path d="M20 15c16-8 28-7 39-2-15 2-22 8-25 15 9 1 18 5 25 12-16-3-27-2-39 3 7-10 8-18 0-28z" fill="none" stroke="#cc2927" stroke-width="2"/><text class="small" x="78" y="30">SQL SERVER · BANCO</text></g>
+  <g transform="translate(354 1032)"><rect width="226" height="48" rx="12" fill="#0d1117" stroke="#59616c"/><rect x="20" y="11" width="26" height="26" rx="4" transform="rotate(45 33 24)" fill="#f05032"/><text class="small" x="76" y="30">GIT · VERSIONAMENTO</text></g>
+</svg>

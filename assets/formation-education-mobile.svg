@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="200" viewBox="0 0 320 200" role="img" aria-labelledby="title">
+  <title id="title">Formação acadêmica</title>
+  <g fill="none" stroke="#d8dee4" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M48 76l112-48 112 48-112 48z"/>
+    <path d="M88 94v48c37 22 107 22 144 0V94M272 76v63"/>
+    <circle cx="272" cy="147" r="6" fill="#d8dee4"/>
+    <path d="M272 153l-11 24h22z"/>
+    <path d="M66 151c56 32 132 32 188 0" stroke="#59616c" stroke-dasharray="2 8"/>
+  </g>
+  <g fill="#f0f3f6"><circle cx="160" cy="28" r="3"/><circle cx="76" cy="62" r="2"/><circle cx="244" cy="62" r="2"/></g>
+</svg>

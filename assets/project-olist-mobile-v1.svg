@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="420" viewBox="0 0 640 420" role="img" aria-labelledby="title desc">
+  <title id="title">Olist para telas menores</title><desc id="desc">Pedidos, entregas e experiência; 99.441 pedidos analisados.</desc>
+  <defs><linearGradient id="mobileOlistArea" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#7895b2" stop-opacity=".4"/><stop offset="1" stop-color="#7895b2" stop-opacity=".02"/></linearGradient></defs>
+  <rect x="1" y="1" width="638" height="418" rx="18" fill="none" stroke="#59616c" stroke-width="2"/>
+  <text x="28" y="58" fill="#f0f3f6" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif" font-size="38" font-weight="700">Olist</text>
+  <text x="28" y="93" fill="#a8afb9" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif" font-size="22">Pedidos, entregas e experiência</text>
+  <text x="28" y="137" fill="#f0f3f6" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif" font-size="23" font-weight="700">99.441 pedidos analisados</text>
+  <path d="M28 163H612" stroke="#3d444d" stroke-width="2"/><text x="28" y="193" fill="#7d8590" font-family="Consolas,monospace" font-size="13" letter-spacing="1.4">DATA / ANALYTICS</text>
+  <g stroke="#252b33" stroke-width="1"><path d="M44 236H598M44 274H598M44 312H598M44 350H598"/><path d="M106 212V350M180 212V350M254 212V350M328 212V350M402 212V350M476 212V350M550 212V350"/></g>
+  <path d="M44 350H598" stroke="#7d8590" stroke-width="2"/>
+  <path d="M62 326L160 260L258 298L356 230L454 274L574 202V350H62Z" fill="url(#mobileOlistArea)"/>
+  <path d="M62 326L160 260L258 298L356 230L454 274L574 202" fill="none" stroke="#9bb3c9" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="900" stroke-dashoffset="900"><animate attributeName="stroke-dashoffset" values="900;0;0" dur="4.5s" repeatCount="indefinite"/></path>
+  <g fill="#0d1117" stroke="#f0f3f6" stroke-width="3"><circle cx="62" cy="326" r="7"/><circle cx="160" cy="260" r="7"/><circle cx="258" cy="298" r="7"/><circle cx="356" cy="230" r="7"/><circle cx="454" cy="274" r="7"/><circle cx="574" cy="202" r="7"/></g>
+  <path d="M28 374H612" stroke="#3d444d" stroke-width="2"/><text x="28" y="404" fill="#a8afb9" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif" font-size="18">Excel · Power Query · ETL · KPIs</text>
+</svg>

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="420" viewBox="0 0 640 420" role="img" aria-labelledby="title desc">
+  <title id="title">AdventureWorks para telas menores</title><desc id="desc">Vendas, rentabilidade e concentração; cinco páginas e 4.782 comparações SQL e DAX.</desc>
+  <rect x="1" y="1" width="638" height="418" rx="18" fill="none" stroke="#59616c" stroke-width="2"/>
+  <text x="28" y="58" fill="#f0f3f6" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif" font-size="38" font-weight="700">AdventureWorks</text>
+  <text x="28" y="93" fill="#a8afb9" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif" font-size="22">Vendas, rentabilidade e concentração</text>
+  <text x="28" y="137" fill="#f0f3f6" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif" font-size="23" font-weight="700">5 páginas · 4.782 comparações SQL × DAX</text>
+  <path d="M28 163H612" stroke="#3d444d" stroke-width="2"/>
+  <text x="28" y="193" fill="#7d8590" font-family="Consolas,monospace" font-size="13" letter-spacing="1.4">DATA / ANALYTICS</text>
+  <g stroke="#252b33" stroke-width="1"><path d="M44 236H598M44 274H598M44 312H598M44 350H598"/><path d="M106 212V350M180 212V350M254 212V350M328 212V350M402 212V350M476 212V350M550 212V350"/></g>
+  <path d="M44 350H598" stroke="#7d8590" stroke-width="2"/>
+  <g fill="#d2a65a"><rect x="70" y="320" width="34" height="30"/><rect x="126" y="303" width="34" height="47"/><rect x="182" y="287" width="34" height="63"/><rect x="238" y="269" width="34" height="81"/><rect x="294" y="250" width="34" height="100"/><rect x="350" y="231" width="34" height="119"/><rect x="406" y="211" width="34" height="139"/><rect x="462" y="192" width="34" height="158"/><rect x="518" y="174" width="34" height="176"/></g>
+  <line x1="62" y1="190" x2="62" y2="350" stroke="#f0f3f6" stroke-width="2" opacity=".85"><animate attributeName="x1" values="62;580;62" dur="5s" repeatCount="indefinite"/><animate attributeName="x2" values="62;580;62" dur="5s" repeatCount="indefinite"/></line>
+  <path d="M28 374H612" stroke="#3d444d" stroke-width="2"/><text x="28" y="404" fill="#a8afb9" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif" font-size="18">SQL Server · T-SQL · Power Query · DAX · Power BI</text>
+</svg>
