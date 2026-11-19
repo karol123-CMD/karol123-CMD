@@ -15,8 +15,8 @@ Busco consolidar minha carreira como Analista de Dados, combinando capacidade an
 ## Links
 
 <p>
-  <a href="https://www.linkedin.com/in/karol-antunes-silva-2b9236390/"><img src="assets/link-linkedin.svg" alt="LinkedIn — acessar perfil profissional" width="450"></a>
-  <a href="#projetos-em-destaque"><img src="assets/link-projects.svg" alt="Projetos em destaque — ver principais análises" width="450"></a>
+  <a href="https://www.linkedin.com/in/karol-antunes-silva-2b9236390/"><img src="assets/link-linkedin.svg" alt="LinkedIn — acessar perfil profissional" width="315"></a>
+  <a href="#projetos-em-destaque"><img src="assets/link-projects.svg" alt="Projetos em destaque — ver principais análises" width="315"></a>
 </p>
 
 ## Stack principal
@@ -86,13 +86,13 @@ A solução combina planilhas, transferência por CSV, banco relacional no Supab
 ## Projetos complementares
 
 <p>
-  <a href="https://github.com/karol123-CMD/projeto-sql-distribuidora-alpha"><img src="assets/complementary-distribuidora-alpha-v4.svg" alt="Distribuidora Alpha — modelagem relacional e consultas de negócio" width="450" loading="lazy"></a>
-  <a href="https://github.com/karol123-CMD/ai-commerce-readiness-mvp"><img src="assets/complementary-ai-commerce-v3.svg" alt="AI Commerce Readiness — automação e qualidade de anúncios" width="450" loading="lazy"></a>
+  <a href="https://github.com/karol123-CMD/projeto-sql-distribuidora-alpha"><img src="assets/complementary-distribuidora-alpha-v4.svg" alt="Distribuidora Alpha — modelagem relacional e consultas de negócio" width="315" loading="lazy"></a>
+  <a href="https://github.com/karol123-CMD/ai-commerce-readiness-mvp"><img src="assets/complementary-ai-commerce-v3.svg" alt="AI Commerce Readiness — automação e qualidade de anúncios" width="315" loading="lazy"></a>
 </p>
 
 ## Formação, certificação e liderança
 
-<picture><source media="(max-width: 820px)" srcset="assets/formation-education-mobile.svg"><img align="right" src="assets/formation-education.gif" alt="Capelo universitário pontilhado e animado." width="21%" loading="lazy"></picture>
+<picture><source media="(max-width: 820px)" srcset="assets/formation-education-mobile.svg"><img align="right" src="assets/formation-education.gif" alt="Capelo universitário pontilhado e animado." width="25%" loading="lazy"></picture>
 
 <sub><strong>F O R M A Ç Ã O</strong></sub>
 
@@ -104,7 +104,7 @@ Quarto semestre
 
 <hr align="left" width="84%" size="1">
 
-<picture><source media="(max-width: 820px)" srcset="assets/formation-certification-mobile.svg"><img align="right" src="assets/formation-certification.gif" alt="Certificado e gráfico analítico pontilhados e animados." width="21%" loading="lazy"></picture>
+<picture><source media="(max-width: 820px)" srcset="assets/formation-certification-mobile.svg"><img align="right" src="assets/formation-certification.gif" alt="Certificado e gráfico analítico pontilhados e animados." width="25%" loading="lazy"></picture>
 
 <sub><strong>C E R T I F I C A Ç Ã O</strong></sub>
 
@@ -116,7 +116,7 @@ Google / Coursera · Concluído em outubro de 2026 · 9 cursos
 
 <hr align="left" width="84%" size="1">
 
-<picture><source media="(max-width: 820px)" srcset="assets/formation-leadership-mobile.svg"><img align="right" src="assets/formation-leadership.gif" alt="Rede de liderança e inteligência artificial pontilhada e animada." width="21%" loading="lazy"></picture>
+<picture><source media="(max-width: 820px)" srcset="assets/formation-leadership-mobile.svg"><img align="right" src="assets/formation-leadership.gif" alt="Rede de liderança e inteligência artificial pontilhada e animada." width="25%" loading="lazy"></picture>
 
 <sub><strong>L I D E R A N Ç A</strong></sub>
 
